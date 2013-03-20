@@ -2,3 +2,4 @@ ACT for Accuracy of Connective Translation is a reference-based metric to measur
 The current version of ACT focuses on a small number of English connectives (although, though, even though, while, meanwhile, since, yet, however), and evaluates their translation into French, Italian, German and Arabic.
 It is possible to port the ACT metric to other language pairs and to other linguistic phenomena (verbs and pronouns) that still pose problems for current SMT systems.
 
+For more details, see ACT-V1.7-Manual-V3.pdf
