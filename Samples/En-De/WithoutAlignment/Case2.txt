@@ -1,0 +1,31 @@
+*******************************************Case 2: Synonym connectives in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl***
+SOURCE 1: the campaign by consumer advocates is directed specifically at the head of deutsche bank , josef ackermann , although large banking houses such as goldman sachs and morgan stanley trade in the same way .
+REFERENCE 1: die kampagne der verbraucherschützer richtet sich konkret gegen deutsche-bank-chef josef ackermann , auchwenn großbanken wie goldman sachs oder morgan stanley ähnlich agieren .
+CANDIDATE 1: die kampagne von verbraucher , befürwortet wird , speziell an der spitze der deutschen bank , josef ackermann , obwohl die großen banken häuser wie von goldman sachs und morgan stanley handel in der gleichen weise . 
+
+***SENTENCE 2: Csrc = although (althoughCONCESSION)	Cref = wobei	Ccand = obwohl***
+SOURCE 2: if they were , they arguably fell under code &apos;s canon 4c , which states , &quot; a judge may attend fund-raising events of law-related and other organizations although the judge may not be a speaker , a guest of honor , or featured on the program of such an event . &quot;
+REFERENCE 2: wären sie es , würden sie wohl unter grundsatz 4c des kodex fallen , der folgendes besagt : &quot; ein richter kann an benefizveranstaltungen gesetzes naher und anderer organisationen teilnehmen , wobei der richter kein sprecher , ehrengast oder laut programm kein gast einer solchen veranstaltungen sein darf . &quot;
+CANDIDATE 2: wenn sie , dass sie wohl unter kodex der canon 4 c vorsieht , die staaten , &quot; ein richter , anwesend sein kann geldbeschaffung ereignisse law-related und anderen organisationen , obwohl die richter nicht ein redner , ein gast des honor , oder auf das infrastrukturinvestitionsprogramm neu einen solchen fall . &quot; 
+
+***SENTENCE 8: Csrc = although (althoughCONCESSION)	Cref = allerdings	Ccand = obwohl***
+SOURCE 8: although the player will find new movements , the surroundings , costumes and enemies and also a &quot; playable &quot; luigi .
+REFERENCE 8: allerdings stößt der spieler auf neuigkeiten bei den bewegungen , der umwelt , den verkleidungen und den feinden - und einen &quot; spielbaren &quot; luigi .
+CANDIDATE 8: obwohl die spieler werden neue bewegungen , die umgebung , trachten und feinde und auch ein &quot; playable &quot; luigi . 
+
+***SENTENCE 12: Csrc = although (althoughCONCESSION)	Cref = obwohl	Ccand = auchwenn***
+SOURCE 12: although this does not guarantee that it was the murderer , it places him it in the murder scene .
+REFERENCE 12: obwohl das nicht garantiert , dass es sich um den mörder handelt , so wird er doch mit dem ort , an dem die straftat begangen wurde , in zusammenhang gebracht .
+CANDIDATE 12: auchwenn dies nicht gewährleisten , dass sie war der mörder , er legt ihm in den mord . 
+
+***SENTENCE 16: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl***
+SOURCE 16: although the german model based on renewable energies is sometimes quoted as an example , the reality contradicts that argument .
+REFERENCE 16: auchwenn das auf erneuerbare energiequellen ausgerichtete , deutsche modell gelegentlich als vorbild hingestellt wird , so widerspricht jedoch die realität dem diskurs .
+CANDIDATE 16: obwohl die deutschen modell auf der grundlage von erneuerbaren energien ist manchmal zitiert als beispiel , die realität im widerspruch zu dem argument . 
+
+***SENTENCE 19: Csrc = however (howeverCONCESSION)	Cref = allerdings	Ccand = aber***
+SOURCE 19: moreover , the families of obese children do not practise sports . however , this concerns a majority of families of current schoolchildren - only 15 % of the children said their parents find time for sports activities at least once a week .
+REFERENCE 19: in familien mit dickerchen zählt auch sport nicht gerade zu den lieblingsbeschäftigungen , was allerdings auch die mehrheit der heutigen schülern betrifft - nur 15 prozent antwortete , dass sich ihre eltern wenigsten einmal in der woche zeit für aktive bewegung finden .
+CANDIDATE 19: außerdem , die familien der übergewichtigen kinder nicht erwachsenenmannschaft , aber das sich um eine mehrheit der familien der aktuellen schüler - nur 15 % der kinder , sagte , ihre eltern die zeit finden für die sportlichen aktivitäten mindestens einmal eine woche . 
+

@@ -1,0 +1,8 @@
+		 STATISTICS ABOUT TEST CORPUS
+
+source unique tokens: 328
+target unique tokens: 345
+unique unseen source tokens: 0
+unique unseen target tokens: 0
+cooccurrences not found in the final t table: 15954
+cooccurrences found in the final t table: 456

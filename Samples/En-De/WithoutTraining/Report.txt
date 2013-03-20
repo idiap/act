@@ -1,0 +1,24 @@
+SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl	PositionCref=13	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 2: Csrc = although (althoughCONCESSION)	Cref = wobei	Ccand = obwohl	PositionCref=32	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 3: Csrc = although	Cref=Ccand = obwohl	PositionCref=10	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 4: Csrc = although	Cref=Ccand = obwohl	PositionCref=13	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 5: Csrc = although	Cref = auchwenn	Ccand = 0	PositionCref=1	==> case 4: Not translated in Cand ==> likely not ok 
+SENTENCE 6: Csrc = although	Cref=Ccand = obwohl	PositionCref=17	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 7: Csrc = although	Cref=Ccand = obwohl	PositionCref=46	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 8: Csrc = although (althoughCONCESSION)	Cref = allerdings	Ccand = obwohl	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 9: Csrc = although	Cref=Ccand = obwohl	PositionCref=26	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 10: Csrc = although	Cref = jedoch	Ccand = obwohl	PositionCref=43	==> case 3: Incompatible connectives 
+SENTENCE 11: Csrc = although	Cref=Ccand = obwohl	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 12: Csrc = although (althoughCONCESSION)	Cref = obwohl	Ccand = auchwenn	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 13: Csrc = although	Cref=Ccand = obwohl	PositionCref=23	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 13: Csrc = while 	Cref =  aber	Ccand = während	PositionCref=11	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 14: Csrc = although	Cref=Ccand = obwohl	PositionCref=52	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 15: Csrc = although	Cref = 0	Ccand = obwohl	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 16: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 17: Csrc = however	Cref = 0	Ccand = aber	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 18: Csrc = however	Cref = jedoch	Ccand = allerdings	PositionCref=24	==> case 3: Incompatible connectives 
+SENTENCE 19: Csrc = however (howeverCONCESSION)	Cref = allerdings	Ccand = aber	PositionCref=15	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 20: Csrc = however	Cref = 0	Ccand = aber	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+****************************** 
+
+ Done in  3 seconds

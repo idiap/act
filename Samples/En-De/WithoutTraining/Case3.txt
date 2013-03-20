@@ -1,0 +1,11 @@
+*******************************************Case 3: Incompatible connectives *******************************
+***SENTENCE 10: Csrc = although	Cref = jedoch	Ccand = obwohl***
+SOURCE 10: during the legal diligence , the public prosecutor attached to the court , ramiro arias , questioned garcia gomez whether he had repaired the damage and which of the partners of the betting house granted pardon , although the lawyer tried to reserve the name .
+REFERENCE 10: während der gerichtlichen anhörung fragte ramiro arias , der beamte des dem gericht zugeordneten ministerio público , garcía gómez , ob dieser den schaden behoben habe und welcher der besitzer des wetthauses seine vergebung ausgesprochen habe . der anwalt hielt den namen jedoch zurück .
+CANDIDATE 10: während die sorgfalt , die staatsanwaltschaft an der europäische gerichtshof , ramiro arias , infrage gestellt garcia gomez , ob er repariert die schäden und die die partner der sportwetten haus bse-freiheitsstatus begnadigung , obwohl der anwalt versucht , die reserve der name . 
+
+***SENTENCE 18: Csrc = however	Cref = jedoch	Ccand = allerdings***
+SOURCE 18: in this year &apos;s third quarter , czech economy showed an interim increase of 1.5 % ; however , it stagnated between the quarters .
+REFERENCE 18: die tschechische wirtschaft wuchs im diesjährigen dritten quartal im vergleich zum vorjahr um 1,5 prozent , im vergleich zum vorangegangenen quartal stagnierte sie jedoch .
+CANDIDATE 18: in diesem jahr im dritten quartal , die tschechische wirtschaft hat konsens-übergangsregierung erhöhung von 1,5 % , allerdings stagnierte zwischen den verantwortungszuweisung . 
+

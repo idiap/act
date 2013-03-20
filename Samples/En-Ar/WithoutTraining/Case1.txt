@@ -1,0 +1,26 @@
+*******************************************Case 1: Same connective in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 4: Csrc = eventhough	Cref=Ccand = Ely__Alrgm***
+SOURCE 4: but eventhough the evidence is persuasive that this unlocks resources which are critical for the millennium development goals , it still falls far short of what is needed .
+REFERENCE 4: w--lkn Ely__Alrgm  mn wjwd Adlp mqnEp Ely__An  h§A y&dy Aly tHryr AlmwArd AllAzmp b--$dp l--AlAhdAf AlAnmA}yp l--AlAlfyp , f--hw mA--zAl Aql b--kvyr mn AlmTlwb .
+CANDIDATE 4: w--lkn Ely__Alrgm  mn An h§h AlAdlp AlmqnEp unlocks AlmwArd AlHAsmp AlAhmyp l--tHqyq AlAhdAf AlAnmA}yp l--AlAlfyp , w--mA zAlt tqSr kvyrA En--mA hw mTlwb . 
+
+***SENTENCE 7: Csrc = meanwhile	Cref=Ccand = fy__Alwqt__nfs--h***
+SOURCE 7: meanwhile , over 40 countries have been scarred by violent conflict .
+REFERENCE 7: w--fy__Alwqt__nfs--h  , f--An hnAk mA yrbw Ely 40 bldA tHml ndwb AlSrAEAt AlmslHp .
+CANDIDATE 7: w--fy__Alwqt__nfs--h  , Akvr mn 40 bldA qd tErDn l--AlSrAEAt AlEnyfp . 
+
+***SENTENCE 14: Csrc = though	Cref=Ccand = rgm***
+SOURCE 14: states find it onerous to report separately to different treaty bodies , often on very similar or overlapping issues ( though agreement on an expanded core document would reduce this burden ) .
+REFERENCE 14: w--tjd Aldwl An mn Almrhq tqdym tqAryr mnfSlp Aly $ty Alhy}At Almn$Ap b--mEAhdAt , b--$An msA}l jd mtmAvlp Aw mtdAxlp fy kvyr mn AlAHyAn -LRB- rgm An AlAtfAq Ely wvyqp AsAsyp mwsEp s--yxff mn h§A AlEb' -RRB- .
+CANDIDATE 14: w--Ely Aldwl An tqdm tqryrA mnfSlA Aly mxtlf Alhy}At Almn$Ap b--mEAhdAt , gAlbA fy msA}l mt$Abhp Aw mtdAxlp -LRB- rgm An AlAtfAq Ely wvyqp AsAsyp mwsEp mn h§A AlEb' -RRB- . 
+
+***SENTENCE 18: Csrc = while	Cref=Ccand = fy__Hyn***
+SOURCE 18: while the present plan of action focuses on ohchr , the overall goal must be to strengthen all aspects of the united nations human rights programme , the various components of which are interdependent .
+REFERENCE 18: w--fy__Hyn  trkz xTp AlEml h§h Ely mfwDyp AlAmm AlmtHdp l--Hqwq AlAnsAn , yjb An ykwn hdf--nA AlEAm hw tEzyz jmyE jwAnb brnAmj AlAmm AlmtHdp l--Hqwq AlAnsAn , Al§y ytkwn mn EnASr mxtlfp mtrAbTp .
+CANDIDATE 18: w--fy__Hyn  An xTp AlEml h§h trkz Ely AlmfwDyp , w--yjb An ykwn Alhdf hw tEzyz jmyE jwAnb brnAmj AlAmm AlmtHdp l--Hqwq AlAnsAn , w--mxtlf mkwnAt--hA mtrAbTp . 
+
+***SENTENCE 19: Csrc = notyet	Cref=Ccand = bEd***
+SOURCE 19: the special committee urges those states that have notyet done so to consider becoming parties to the convention on the safety of united nations and associated personnel .
+REFERENCE 19: 58 - w--tHv Alljnp AlxASp Aldwl Alty l--mA tSbH bEd ATrAfA fy AlAtfAqyp AlmtElqp b--slAmp mwZfy AlAmm AlmtHdp w--AlAfrAd AlmrtbTyn b--hA Ely AlnZr fy AlqyAm b--§lk .
+CANDIDATE 19: w--tHv Alljnp AlxASp Aldwl Alty lm tfEl §lk bEd Ely AlnZr fy AlAnDmAm Aly AtfAqyp slAmp mwZfy AlAmm AlmtHdp w--AlAfrAd AlmrtbTyn b--hA . 
+

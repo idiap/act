@@ -1,0 +1,6 @@
+*******************************************Case 3: Incompatible connectives *******************************
+***SENTENCE 18: Csrc = however	Cref = jedoch	Ccand = allerdings***
+SOURCE 18: in this year &apos;s third quarter , czech economy showed an interim increase of 1.5 % ; however , it stagnated between the quarters .
+REFERENCE 18: die tschechische wirtschaft wuchs im diesjährigen dritten quartal im vergleich zum vorjahr um 1,5 prozent , im vergleich zum vorangegangenen quartal stagnierte sie jedoch .
+CANDIDATE 18: in diesem jahr im dritten quartal , die tschechische wirtschaft hat konsens-übergangsregierung erhöhung von 1,5 % , allerdings stagnierte zwischen den verantwortungszuweisung . 
+

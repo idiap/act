@@ -1,0 +1,36 @@
+*******************************************Case 1: Same connective in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 4: Csrc = although	Cref=Ccand = bienque***
+SOURCE 4: although the case against abbott was unsuccessful , in view of the fact that the case is now in the public domain , it might still act as a deterrent to other enterprises that are dominant and hold intellectual property rights from abusing their dominant position in the market .
+REFERENCE 4: bienque  l' action contre abbott n' ait pas abouti , comme l' affaire est maintenant connue elle pourrait bien dissuader d' autres entreprises qui sont en position dominante et qui détiennent des droits de propriété intellectuelle d' abuser de leur position dominante .
+CANDIDATE 4: bienque  le cas contre abbott , a échoué , compte tenu du fait que l' affaire est àprésent  dans le domaine public , il pourrait encore agir comme un élément de dissuasion à d' autres entreprises qui sont dominants et organiser des droits de propriété intellectuelle d' abuser de leur position dominante sur le marché . 
+
+***SENTENCE 5: Csrc = eventhough	Cref=Ccand = mêmesi***
+SOURCE 5: ) it is not known which duration or breadth provides the “ best ” balance , eventhough laws must - and do - make choices .
+REFERENCE 5: ) on ne sait pas quelle durée ou quelle portée offre le « meilleur » équilibre , mêmesi  la loi doit faire des choix , et le fait effectivement .
+CANDIDATE 5: ) il n' est pas connu qui durée ou étendue offre la meilleure « équilibre » , mêmesi  les lois doivent - et de le faire - de faire des choix . 
+
+***SENTENCE 6: Csrc = eventhough	Cref=Ccand = mêmesi***
+SOURCE 6: the commission noted that - eventhough the nickel marketing agreement between bnc , mmcz and glencore international was restrictive - its competitive effects were felt more on foreign markets than on the local zimbabwean market , where bnc was the sole nickel producer and the product was not consumed .
+REFERENCE 6: la commission de la concurrence a relevé que , mêmesi  l' accord pour la commercialisation du nickel passé entre bnc , mmcz et glencore international était restrictif , ses effets sur la concurrence étaient davantage ressentis sur les marchés étrangers que sur le marché zimbabwéen , où bnc était l' unique producteur de nickel et où le produit n' était pas utilisé .
+CANDIDATE 6: la commission note que - mêmesi  le nickel commercialisation accord entre bnc , mmcz et glencore international a été restrictive - les effets ont été ressentis plus compétitive sur les marchés étrangers que sur le marché local du zimbabwe , où bnc était le seul producteur de nickel et le produit n' était pas consommé . 
+
+***SENTENCE 8: Csrc = meanwhile	Cref=Ccand = entre-temps***
+SOURCE 8: meanwhile , an advisory group was appointed to advise the governor on policy .
+REFERENCE 8: entre-temps , un groupe consultatif a été nommé pour conseiller le gouverneur en matière de politique .
+CANDIDATE 8: entre-temps , un groupe consultatif , a été nommé à conseiller le gouverneur sur la politique . 
+
+***SENTENCE 13: Csrc = though	Cref=Ccand = mêmesi***
+SOURCE 13: thus , trademarks may also be involved in parallel trade discussions , though patents appear to be the main focus .
+REFERENCE 13: par conséquent , les marques de fabrique et de commerce peuvent également faire partie des débats sur le commerce parallèle , mêmesi  il apparaît que les brevets en sont le principal objet .
+CANDIDATE 13: donc , les marques , peuvent également être impliqués dans le commerce parallèle des discussions , mêmesi  les brevets semble être l' objectif principal . 
+
+***SENTENCE 15: Csrc = while	Cref=Ccand = tandisque***
+SOURCE 15: the empirical work on how market structure affects innovation is also unclear , with some arguing that the data support the arrowian view while others state that the most innovative markets are neither too competitive nor too monopolized .
+REFERENCE 15: quant aux travaux empiriques menés sur la manière dont la structure du marché affecte l' innovation , ils n' apportent pas de certitude , certains faisant valoir que les données vont dans le sens de la doctrine d' arrow tandisque  d' autres déclarent que les marchés les plus novateurs ne sont ni trop compétitifs ni trop monopolisés .
+CANDIDATE 15: le travail sur la façon empirique structure de marché affecte l ' innovation est aussi floue , avec certains affirmant que les données soutenir le point de vue arrowian tandisque  d' autres que l' état le plus novateur des marchés ne sont ni trop compétitive ni trop monopolized . 
+
+***SENTENCE 16: Csrc = while	Cref=Ccand = touten***
+SOURCE 16: from a development perspective , the challenges are to identify the core policy components that are required to form a modern ipr system , to improve the coherence of ipr policies and other relevant policies , and to ameliorate the institutional design to enhance the functioning of an ipr regime , while ensuring that abusive use of iprs does not stifle innovation and economic growth .
+REFERENCE 16: du point de vue du développement , les difficultés à surmonter consistent à identifier les éléments incontournables qui doivent faire partie d' un système moderne de droits de propriété intellectuelle , à améliorer la cohérence des politiques en matière de dpi et des autres politiques pertinentes et à améliorer la structure institutionnelle afin que le régime de dpi fonctionne mieux , touten  veillant à ce qu' une utilisation abusive des dpi n' étouffe pas l' innovation et la croissance économique .
+CANDIDATE 16: du point de vue du développement , les défis sont à identifier la politique essentielle de composants qui sont requis pour former un système moderne de dpi , d' améliorer la cohérence des dpi politiques et d' autres politiques concernées , et à améliorer la conception institutionnelle pour améliorer le fonctionnement d' un régime de dpi , touten  garantissant que l' utilisation abusive de les droits de propriété intellectuelle ne pas étouffer l' innovation et la croissance économique . 
+

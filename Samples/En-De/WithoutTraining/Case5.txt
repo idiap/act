@@ -1,0 +1,16 @@
+*******************************************Case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human *******************************
+***SENTENCE 15: Csrc = although	Cref = 0	Ccand = obwohl***
+SOURCE 15: although the motion on europe devotes a paragraph to the importance of &quot; franco-german friendship , &quot; angela merkel did not mention france .
+REFERENCE 15: soweit der europa-antrag der bedeutsamkeit der &quot; deutsch-französischen freundschaft &quot; einen paragraphen widmet , ruft angela merkel frankreich nicht auf den plan .
+CANDIDATE 15: obwohl der antrag auf europa zumißt einen punkt auf die bedeutung des &quot; die deutsch-französische freundschaft &quot; , angela merkel nicht erwähnt frankreich . 
+
+***SENTENCE 17: Csrc = however	Cref = 0	Ccand = aber***
+SOURCE 17: however , our lifestyle is neither unique nor the best one and would not , most probably , be suitable for , for example , the people of libya .
+REFERENCE 17: nur - unser lebensstil ist nun mal nicht der einzige und objektiv gesehen wohl auch nicht der beste und würde abwechslung den erwähnten libyern kaum passen .
+CANDIDATE 17: aber unsere lebensstil ist weder einmalig noch die beste und würde nicht , wahrscheinlich , die geeignet sein , beispielsweise für die menschen in libyen . 
+
+***SENTENCE 20: Csrc = however	Cref = 0	Ccand = aber***
+SOURCE 20: however , children showed very little interest in legumes , fish , and vegetable lunches .
+REFERENCE 20: hülsenfrüchte mochten die kinder fast gar nicht und auch die beliebtheit von fisch und gemüsegerichten als mittagessen war sehr gering .
+CANDIDATE 20: aber , kinder , zeigte wenig interesse in körnerleguminosen , fisch , pflanzlichen und verpflegung . 
+

@@ -1,0 +1,33 @@
+$SourceFile=20-en-ar.src 
+$ReferenceFile=20-en-ar.ref 
+$CandidateFile=20-en-ar.cand 
+$ACTHOME=/Users/Hajlaoui/Documents/Experiences-Professionnelles/IDIAP/Recherche/workspace/ACT-En-Fr_Ar/Code 
+$WorkingDir=/Users/Hajlaoui/Documents/Experiences-Professionnelles/IDIAP/Recherche/workspace/ACT-En-Fr_Ar/Code/Samples/En-Ar/WithTraining 
+$SourceLanguage=en 
+$TargetLanguage=ar 
+$case5manual=0 
+$PrintReport=1 
+$PrintCase5=0 
+$Preprocessing=1 
+$UsingAlignment=1 
+$PrintAligInfos=1 
+$GizaModel=0 
+$RunGiza=0 
+$PathToGIZA=/Users/Hajlaoui/tools/giza-pp-v1.0.7/giza-pp/GIZA++-v2 
+$SavingModel=1 
+$SavingModel_Src_Ref=20-en-ar.Src-Ref.toact.v1.4.en-ar.grow-diag-final-and.giza 
+$SavingModel_Src_Cand=20-en-ar.Src-Cand.toact.v1.4.en-ar.grow-diag-final-and.giza 
+****************************** 
+
+Number of different sentences: 20 
+Number of discourse connectives: 21 
+*** 
+case 1: 5 
+case 2: 7 
+case 3: 3 
+case 4: 4 
+case 5: 2 
+case 6: 0 
+CATa:   0.571 
+CATa5:   0.632 
+CATm:   0.571 

@@ -1,0 +1,24 @@
+SENTENCE 1: Csrc = although	Cref = fy__Hyn	Ccand = Ely__Alrgm	PositionCref=3	==> case 3: Incompatible connectives 
+SENTENCE 2: Csrc = although (althoughCONCESSION)	Cref = Ely__Alrgm	Ccand = rgm	PositionCref=2	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 3: Csrc = although	Cref = An__lm	Ccand = 0	PositionCref=11	==> case 4: Not translated in Cand ==> likely not ok 
+SENTENCE 4: Csrc = eventhough	Cref=Ccand = Ely__Alrgm	PositionCref=2	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 5: Csrc = eventhough	Cref = mE__An	Ccand = b--Alrgm	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 5: Csrc = eventhough	Cref = mE__An	Ccand = b--Alrgm	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 6: Csrc = eventhough (eventhoughCONCESSION)	Cref = rgm	Ccand = Ely__Alrgm	PositionCref=13	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 7: Csrc = meanwhile	Cref=Ccand = fy__Alwqt__nfs--h	PositionCref=2	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 8: Csrc = meanwhile (meanwhileTEMPORAL)	Cref = fy__Alwqt__AlHADr	Ccand = fy__Alwqt__nfs--h	PositionCref=4	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = fy__Alwqt__nfs--h	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = nZrA	Ccand = b--mA__An	PositionCref=13	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 11: Csrc = since	Cref = Hyv	Ccand = mn§	PositionCref=21	==> case 3: Incompatible connectives 
+SENTENCE 12: Csrc = since (sinceCAUSAL)	Cref = Hyv	Ccand = b--mA__An	PositionCref=21	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 13: Csrc = though	Cref = l--An__kAnt	Ccand = rgm	PositionCref=2	==> case 3: Incompatible connectives 
+SENTENCE 14: Csrc = though	Cref=Ccand = rgm	PositionCref=26	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 15: Csrc = though	Cref = 0	Ccand = 0	PositionCref=0	==> case 6: Not translated in Ref nor in Cand ==> indecide 
+SENTENCE 16: Csrc = while	Cref = 0	Ccand = 0	PositionCref=0	==> case 6: Not translated in Ref nor in Cand ==> indecide 
+SENTENCE 17: Csrc = while	Cref = 0	Ccand = 0	PositionCref=0	==> case 6: Not translated in Ref nor in Cand ==> indecide 
+SENTENCE 18: Csrc = while	Cref=Ccand = fy__Hyn	PositionCref=2	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 19: Csrc = notyet	Cref=Ccand = bEd	PositionCref=10	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 20: Csrc = yet	Cref = Ely__An	Ccand = 0	PositionCref=3	==> case 4: Not translated in Cand ==> likely not ok 
+****************************** 
+
+ Done in  0 seconds

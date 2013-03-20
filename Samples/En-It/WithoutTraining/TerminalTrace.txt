@@ -1,0 +1,230 @@
+$ACTHOME=/Users/Hajlaoui/tools/ACT/ACT-V1.7 
+$WorkingDir=/Users/Hajlaoui/tools/ACT/ACT-V1.7/Samples/En-It/WithoutTraining 
+$SourceFile=20test_source.en.lc 
+$ReferenceFile=20test_reference.it.lc 
+$CandidateFile=20test_candidate.it.lc 
+$SourceLanguage=en 
+$TargetLanguage=it 
+$case5manual=0 
+$case6manual=0 
+$PrintReport=1 
+$PrintCase5=0 
+$UsingAlignment=1 
+$PrintAligInfos=1 
+$GizaModel=1 
+$RunGiza=1 
+$PathToGIZA=/Users/Hajlaoui/tools/giza-pp-v1.0.7/giza-pp/GIZA++-v2 
+$SavingModel=0 
+$SavingModel_Src_Ref=2100-ar-en-zh.SMTB2.Src-Ref.toact.V1.4.en-ar.grow-diag-final-and.giza 
+$SavingModel_Src_Cand=2100-ar-en-zh.SMTB2.Src-Cand.toact.V1.4.en-ar.grow-diag-final-and.giza 
+ 
+
+************ Run plain2snt ************ 
+************ Run Giza++ ************ 
+************ end Run Giza++ ************ 
+************ Cleaning data ************ 
+************ Processing Alignment results ************ 
+
+ SENTENCE 1 Csrc:although {36} CR:sebbene
+ SENTENCE 1 Csrc:although {29 31} CC:sebbene sono
+SENTENCE 1: Csrc = although	Cref=Ccand = sebbene	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 1: it is positive to see that reforms and moderate increases in labour costs have helped to bring about higher employment and lower unemployment in recent years , although progress has been uneven across eu member states .
+REFERENCE 1: è positivo riscontrare che le riforme e il moderato incremento di il costo di il lavoro abbiano contribuito a un aumento di la occupazione e a un calo di la disoccupazione negli ultimi anni , sebbene i progressi non siano stati uniformi fra i paesi membri di la ue .
+CANDIDATE 1: è positivo vedere che le riforme e moderati aumenti nei costi di il lavoro hanno contribuito a creare maggiore occupazione e ridurre la disoccupazione negli ultimi anni , sebbene progressi sono stati costanti attraverso gli stati membri di la unione europea . 
+
+ SENTENCE 2 Csrc:although {1} CR:la
+ SENTENCE 2 Csrc:although {1} CC:sebbene
+ SENTENCE 2 Csrc:although have as possible translation in Ref:tuttavia
+ SENTENCE 2 Csrc:although have as possible translation in Ref:pure
+ SENTENCE 2 Csrc:although and Cref :tuttavia will be replaced/confirmed by the nearest connective to the alignment:tuttavia 
+ SENTENCE 2 Csrc:although have as possible translation in Cand:sebbene
+ SENTENCE 2 Csrc:although have as possible translation in Cand:tuttavia
+ SENTENCE 2 Csrc:although and Ccand:sebbene will be replaced/confirmed by CC:sebbene 
+SENTENCE 2: Csrc = although	Cref = tuttavia	Ccand = sebbene	==> case 3: Incompatible connectives 
+
+SOURCE 2: although annual m3 growth of still above 10 % overstates the underlying pace of monetary expansion , owing to the impact of the flat yield curve and other temporary factors , nonetheless , even after taking such effects into account , a broad-based assessment of the latest data confirms that the underlying rate of money and credit growth remains strong .
+REFERENCE 2: la crescita di m3 , tuttora superiore al 10 per cento , sovrastima il tasso di incremento di fondo di la moneta , a causa di il profilo piatto di la curva dei rendimenti e di altri fattori di carattere temporaneo ; tuttavia , pure tenendo conto di tali effetti , una valutazione di ampio respiro degli ultimi dati conferma che l' espansione di fondo di la moneta e di il credito resta vigorosa .
+CANDIDATE 2: sebbene la crescita di m3 annuale ancora superiore al 10 per cento sopravvaluta il ritmo di fondo di la espansione monetaria , a causa di la impatto di la curva di rendimento piatta e altri fattori temporanei , tuttavia , anche dopo aver assunto effetti conto , un' ampia valutazione degli ultimi dati conferma che il tasso sottostante di denaro e rimane forte crescita di il credito . 
+
+ SENTENCE 3 Csrc:although {33} CR:da
+ SENTENCE 3 Csrc:although {22} CC:,
+SENTENCE 3: Csrc = although	Cref = ma	Ccand = sebbene	==> case 3: Incompatible connectives 
+
+SOURCE 3: at the same time , higher short-term interest rates have served to moderate the growth of household borrowing , although cooling housing markets in several parts of the euro area have also played a substantial role in this regard .
+REFERENCE 3: nelcontempo  , l' innalzamento dei tassi di interesse a breve ha comportato una decelerazione di la indebitamento delle famiglie , ma un ruolo rilevante in questo senso è stato svolto anche da la diminuzione di la attività nei mercati degli immobili residenziali in diverse regioni di la area di la euro .
+CANDIDATE 3: allostessotempo  , più elevati tassi di interesse a breve termine sono serviti a moderare la crescita di indebitamento delle famiglie , sebbene il raffreddamento mercati immobiliari in diverse parti di la zona euro hanno svolto un ruolo sostanziale a questo proposito . 
+
+ SENTENCE 4 Csrc:although {1} CR:sebbene
+ SENTENCE 4 Csrc:although {1 4} CC:anchese fattori
+SENTENCE 4: Csrc = although (althoughCONCESSION)	Cref = sebbene	Ccand = anchese	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 4: although other factors are also at work , some support for this proposition may be found in the fact that eu regulatory regimes which allow for competition between exchanges and other forms of trading method are characterised by higher stock market capitalisation ( 170 % of gdp ) and liquidity ( as measured by turnover 407 % of gdp ) when compared to member states which favour trading on-exchange ( 80 % and 130 % respectively ) .
+REFERENCE 4: sebbene altri fattori siano all' opera , un qualche sostegno alla proposta può venire da il fatto che negli stati membri di la unione che consentono la concorrenza tra le borse e gli altri metodi di negoziazione , la capitalizzazione dei mercati azionari e la loro liquidità ( misurata in termini di fatturato ) sono superiori ( 170 % e 407 % di il pil rispettivamente ) rispetto agli stati membri che favoriscono la negoziazione in borsa ( 80 % e 130 % di il pil rispettivamente ) xi .
+CANDIDATE 4: anchese  altri fattori sono anche sul lavoro , alcuni sostegno a questa proposta può essere trovato nel fatto che i regimi di regolamentazione di la ue che consentano di concorrenza tra gli scambi e altre forme di metodo di scambio sono caratterizzate da un elevato di capitalizzazione di borsa ( 170 per cento di il pil ) e la liquidità ( misurata da il fatturato 407 per cento di il pil ) rispetto a stati membri che favore on-exchange commerciali ( 80 per cento e 130 per cento rispettivamente ) . 
+
+ SENTENCE 5 Csrc:however {1} CR:tuttavia
+ SENTENCE 5 Csrc:however {1} CC:tuttavia
+SENTENCE 5: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 5: however , updated stability programmes foresee only moderate progress with fiscal consolidation in the coming years .
+REFERENCE 5: tuttavia , gli aggiornamenti dei programmi di stabilità prevedono per i prossimi anni soltanto progressi moderati nell' azione di risanamento .
+CANDIDATE 5: tuttavia , programmi di stabilità aggiornati prevedere un moderato progresso solo con il consolidamento fiscale nei prossimi anni . 
+
+ SENTENCE 6 Csrc:however {} CR:
+ SENTENCE 6 Csrc:however {4} CC:tuttavia
+SENTENCE 6: Csrc = however	Cref = 0	Ccand = tuttavia	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 6: this change should not , however , prevent those ncbs that have data for years before 1995 from reporting them on a voluntary basis .
+REFERENCE 6: caso a quelle bcn che hanno a disposizione dati relativi ad anni precedenti al 1995 , di segnalarli su base volontaria .
+CANDIDATE 6: questo cambiamento , tuttavia , non dovrebbe impedire quelle bcn che abbiamo dati per anni prima 1995 da riferire loro su base volontaria . 
+
+ SENTENCE 7 Csrc:however {11} CR:tuttavia
+ SENTENCE 7 Csrc:however {12} CC:tuttavia
+ SENTENCE 7 Csrc:however have as possible translation in Cand: ora
+ SENTENCE 7 Csrc:however have as possible translation in Cand:tuttavia
+ SENTENCE 7 Csrc:however and Ccand:ora will be replaced/confirmed by CC:tuttavia 
+SENTENCE 7: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 7: the start date should now be advanced to 1995 , however , due to limited availability
+REFERENCE 7: la data d' inizio dovrebbe essere anticipata al 1995 , tuttavia , a causa di una limitata disponibilità di dati precedenti al 1995 .
+CANDIDATE 7: la data di partenza dovrebbe ora essere avanzati al 1995 , tuttavia , a causa di disponibilità limitata 
+
+ SENTENCE 8 Csrc:however {5} CR:tuttavia
+ SENTENCE 8 Csrc:however {4} CC:tuttavia
+SENTENCE 8: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 8: such advice shall , however , not release the member of staff from his / her external liability .
+REFERENCE 8: in nessun caso , tuttavia , il membro di il personale ł esonerato da responsabilità che emergano ad altro titolo .
+CANDIDATE 8: tali consigli , tuttavia , non esonererà la membro di il personale da la sua / la sua responsabilità esterne . 
+
+ SENTENCE 9 Csrc:however {1} CR:tuttavia
+ SENTENCE 9 Csrc:however {1} CC:tuttavia
+SENTENCE 9: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 9: however , there continue to be upside risks to price stability , relating mainly to oil price developments and their potential to lead to second-round effects stemming from wage and price-setting behaviour .
+REFERENCE 9: tuttavia , permangono rischi al rialzo per la stabilità dei prezzi , connessi principalmente all' andamento dei corsi petroliferi e ai loro potenziali effetti di secondo impatto derivanti da il processo di formazione di salari e prezzi .
+CANDIDATE 9: tuttavia , continuano a essere potenziali rischi alla stabilità dei prezzi , principalmente in relazione agli sviluppi di il prezzo di il petrolio e il loro potenziale per condurre a effetti di rimbalzo derivanti da salari e sulla fissazione dei prezzi . 
+
+ SENTENCE 10 Csrc:however {} CR:
+ SENTENCE 10 Csrc:however {1} CC:tuttavia
+SENTENCE 10: Csrc = however	Cref = nondimeno	Ccand = tuttavia	==> case 3: Incompatible connectives 
+
+SOURCE 10: however , upside risks to price stability over the medium term need to be monitored closely .
+REFERENCE 10: nondimeno , vanno tenuti sotto stretta osservazione i rischi al rialzo per la stabilità dei prezzi nel medio periodo .
+CANDIDATE 10: tuttavia , potenziali rischi per la stabilità dei prezzi nel medio termine necessità di essere monitorata da vicino . 
+
+ SENTENCE 11 Csrc:however {5} CR:tuttavia
+ SENTENCE 11 Csrc:however {5} CC:tuttavia
+SENTENCE 11: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 11: it is not intended , however , that the agreement will provide for the possibility of financial institutions located in andorra having access to eurosystem monetary policy operations .
+REFERENCE 11: l' accordo non è tuttavia teso ad offrire la possibilità agli enti finanziari aventi sede nel territorio di andorra di accedere alle operazioni di politica monetaria di la eurosistema .
+CANDIDATE 11: non è inteso , tuttavia , che l' accordo preveda la possibilità di istituti finanziari situati in andorra avere accesso a ' eurosistema operazioni di politica monetaria . 
+
+ SENTENCE 12 Csrc:however {1} CR:tuttavia
+ SENTENCE 12 Csrc:however {1} CC:tuttavia
+SENTENCE 12: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 12: however , these developments , which support household disposable income and consumption , are unlikely to fully compensate the loss of purchasing power caused by higher energy and food prices .
+REFERENCE 12: tuttavia questi andamenti , che sostengono il reddito disponibile e i consumi delle famiglie , non compenseranno probabilmente appieno la perdita di potere di acquisto causata da i rincari dei prodotti energetici e alimentari .
+CANDIDATE 12: tuttavia , questi sviluppi , che sostengono famiglia reddito disponibile e di consumo , difficilmente pienamente compensare la perdita di potere d' acquisto causati da più elevati prezzi di la energia e dei prodotti alimentari . 
+
+ SENTENCE 13 Csrc:however {1} CR:tuttavia
+ SENTENCE 13 Csrc:however {1} CC:tuttavia
+SENTENCE 13: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 13: however , the growth of bank loans to non-financial corporations has remained very robust despite the rises in short-term rates .
+REFERENCE 13: tuttavia , la crescita dei prestiti bancari alle società non finanziarie è proceduta a ritmi molto sostenuti malgrado il rialzo dei tassi a breve termine .
+CANDIDATE 13: tuttavia , la crescita di prestiti bancari a società non finanziarie è rimasta molto solida nonostante gli aumenti dei tassi a breve termine . 
+
+ SENTENCE 14 Csrc:however {} CR:
+ SENTENCE 14 Csrc:however {} CC:
+SENTENCE 14: Csrc = however	Cref=Ccand = però	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 14: recent reverses suffered by equity markets do not weaken the case for market-based financing . however , they highlight the importance of a robust legal and regulatory framework if investor confidence and liquidity are to be nurtured and financial markets are to thrive .
+REFERENCE 14: le recenti vicissitudini dei mercati azionari non indeboliscono le ragioni a favore di il ricorso al mercato per la raccolta di finanziamenti , sottolineano però l' importanza di un robusto quadro giuridico e regolamentare , che consenta di dare fiducia agli investitori , di accrescerne la liquidità e di far prosperare i mercati finanziari .
+CANDIDATE 14: recenti battute d' arresto subite da i mercati azionari non indebolire il caso di finanziamento basati sul mercato . essi , però , sottolineare l' importanza di un solido quadro giuridico e normativo se la fiducia degli investitori e liquidità devono essere coltivati e mercati finanziari sono di prosperare . 
+
+ SENTENCE 15 Csrc:however {1} CR:tuttavia
+ SENTENCE 15 Csrc:however {1} CC:tuttavia
+ SENTENCE 15 Csrc:however have as possible translation in Ref:tuttavia
+ SENTENCE 15 Csrc:however have as possible translation in Ref: ma
+ SENTENCE 15 Csrc:however and Cref :tuttavia will be replaced/confirmed by CR:tuttavia 
+ SENTENCE 15 Csrc:however have as possible translation in Cand:tuttavia
+ SENTENCE 15 Csrc:however have as possible translation in Cand: ma
+ SENTENCE 15 Csrc:however and Ccand:tuttavia will be replaced/confirmed by CC:tuttavia 
+SENTENCE 15: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 15: however , these measures are a necessary but not a sufficient condition for allowing effective cross-border interaction of all potential buy and sell interests in a given instrument .
+REFERENCE 15: tuttavia queste misure costituiscono una condizione necessaria ma non sufficiente perché si instauri un' efficace interazione a livello transfrontaliero tra tutti i potenziali interessi di acquisto e di vendita su un determinato strumento .
+CANDIDATE 15: tuttavia , queste misure sono una condizione necessaria ma non sufficiente per consentire scambi transfrontalieri efficace di ogni potenziale acquistare e vendere interessi in un determinato strumento . 
+
+ SENTENCE 16 Csrc:however {1} CR:tuttavia
+ SENTENCE 16 Csrc:however {1} CC:tuttavia
+SENTENCE 16: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 16: however , they account for only 1 % of equity trading volumes in the eu ( a much lower share of equity transactions than in us ) ;
+REFERENCE 16: tuttavia , esse coprono solo l' 1 % di il volume degli scambi azionari nella ue ( ossia una percentuale molto inferiore che negli stati uniti ) ix ;
+CANDIDATE 16: tuttavia , essi rappresentano solo 1 per cento di equity volumi commerciali nell' unione europea ( una quota inferiore di transazioni equity che negli stati uniti ) ; 
+
+ SENTENCE 17 Csrc:however {} CR:
+ SENTENCE 17 Csrc:however {1} CC:tuttavia
+SENTENCE 17: Csrc = however	Cref = 0	Ccand = tuttavia	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 17: however , the experience with the retail service providers in the uk demonstrates that off-exchange execution can deliver price improvements for retail investors in 7 out of 10 trades .
+REFERENCE 17: l' esperienza dei retail service providers di il regno unito dimostra che in 7 casi su 10 l' esecuzione fuori borsa può consentire agli investitori al dettaglio di ottenere prezzi più vantaggiosi .
+CANDIDATE 17: tuttavia , l' esperienza con la retail di servizi nel regno unito dimostra che off-exchange esecuzione possono conseguire miglioramenti dei prezzi per gli investitori al dettaglio in 7 dei 10 . 
+
+ SENTENCE 18 Csrc:however {1} CR:tuttavia
+ SENTENCE 18 Csrc:however {1} CC:tuttavia
+SENTENCE 18: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 18: however , transparency may come at a price in terms of reduced liquidity provision to market participants .
+REFERENCE 18: tuttavia , la trasparenza può rivelarsi costosa in termini di riduzione di liquidità per i partecipanti al mercato .
+CANDIDATE 18: tuttavia , la trasparenza può venire a un prezzo in termini di riduzione di liquidità per i partecipanti al mercato . 
+
+ SENTENCE 19 Csrc:however {6} CR:tuttavia
+ SENTENCE 19 Csrc:however {1} CC:tuttavia
+SENTENCE 19: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 19: however , these conflicts of interest may be exacerbated where the investment firm has an active strategy of internalising client order flow and minimising the orders that have to be finalised on-exchange .
+REFERENCE 19: questi conflitti di interesse possono tuttavia intensificarsi se un' impresa di investimento persegue una strategia attiva di internalizzazione dei flussi degli ordini dei clienti e di riduzione degli ordini da eseguire in borsa .
+CANDIDATE 19: tuttavia , questi conflitti di interesse può essere aggravato dove gli investimenti ferma ha una strategia attiva di internalizzare cliente fine flusso e minimizzare gli ordini che devono essere completata on-exchange . 
+
+ SENTENCE 20 Csrc:however {1} CR:tuttavia
+ SENTENCE 20 Csrc:however {1} CC:tuttavia
+SENTENCE 20: Csrc = however	Cref=Ccand = tuttavia	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 20: however , limiting regulatory arbitrage does not amount to a case for blanket application of exchange-type regulation to other systems of methods of executing investor orders .
+REFERENCE 20: tuttavia , proporre la limitazione di la arbitraggio regolamentare non equivale a sostenere l' esigenza di un' applicazione indistinta di una regolamentazione di tipo borsistico ad altri sistemi di esecuzione degli ordini degli investitori .
+CANDIDATE 20: tuttavia , la limitazione di arbitraggio normativo non equivale a un caso per l' applicazione generale di il regolamento exchange-type di altri sistemi di metodi di esecuzione degli ordini degli investitori . 
+
+****************************** 
+****************************** 
+*** 
+****************************** 
+Number of different sentences: 20 
+Number of discourse connectives: 20 
+*************Statistical informations about the correspondence between alignment information and detected connectors ***************** 
+The reference connector is equal to the alignment information (Cref Eq CR): 14 
+The reference connector is not equal to the alignment information (Cref Not Eq CR): 4 
+The candidate connector is equal to the alignment information (Ccand Eq CC): 15 
+The candidate connector is not equal to the alignment information (Ccand Not Eq CC): 5 
+****************************** 
+*** 
+case 1: 14 
+case 2: 1 
+case 3: 3 
+case 4: 0 
+case 5: 2 
+case 6: 0 
+*** 
+ACTa:   0.750 
+ACTa5+6:   0.833 
+ACTm:   0.750 
+*** 
+****************************** 
+
+ Done in  3 seconds
+****************************** 

@@ -1,0 +1,218 @@
+$ACTHOME=/Users/Hajlaoui/tools/ACT/ACT-V1.7 
+$WorkingDir=/Users/Hajlaoui/tools/ACT/ACT-V1.7/Samples/En-Fr/WithoutTraining 
+$SourceFile=20undoc.2000.en-fr.tok.lc.src 
+$ReferenceFile=20undoc.2000.en-fr.tok.lc.ref 
+$CandidateFile=20undoc.2000.en-fr.tok.lc.cand 
+$SourceLanguage=en 
+$TargetLanguage=fr 
+$case5manual=0 
+$case6manual=0 
+$PrintReport=1 
+$PrintCase5=0 
+$UsingAlignment=1 
+$PrintAligInfos=1 
+$GizaModel=1 
+$RunGiza=1 
+$PathToGIZA=/Users/Hajlaoui/tools/giza-pp-v1.0.7/giza-pp/GIZA++-v2 
+$SavingModel=0 
+$SavingModel_Src_Ref=2100-ar-en-zh.SMTB2.Src-Ref.toact.V1.4.en-ar.grow-diag-final-and.giza 
+$SavingModel_Src_Cand=2100-ar-en-zh.SMTB2.Src-Cand.toact.V1.4.en-ar.grow-diag-final-and.giza 
+ 
+
+************ Run plain2snt ************ 
+************ Run Giza++ ************ 
+************ end Run Giza++ ************ 
+************ Cleaning data ************ 
+************ Processing Alignment results ************ 
+
+ SENTENCE 1 Csrc:although {24} CR:au
+ SENTENCE 1 Csrc:although {29} CC:bienque
+SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 1: actions to prevent restrictive licensing arrangements from adversely affecting competition in a domestic market are a matter left to individual member countries , although consultation and cooperation between members is encouraged .
+REFERENCE 1: es mesures visant à empêcher que des arrangements restrictifs en matière de licence n' entravent la concurrence sur un marché intérieur sont laissées au choix de chacun des pays membres , mêmesi  la consultation et la coopération entre les membres sont encouragées .
+CANDIDATE 1: les actions visant à empêcher des accords de licence restrictives affectant négativement la concurrence dans un marché national sont une question laissée à chacun des pays membres , bienque  la consultation et la coopération entre les états membres est encouragé . 
+
+ SENTENCE 2 Csrc:although {14} CR:des
+ SENTENCE 2 Csrc:although {18} CC:bienque
+SENTENCE 2: Csrc = although	Cref = 0	Ccand = bienque	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 2: in most free trade agreements , the data exclusivity approach prevails , although some recent ones contain the possibility of some cost sharing .
+REFERENCE 2: pour les pays en développement , il importe de noter que l' exclusivité des données est une méthode qui peut retarder de plusieurs années la commercialisation de médicaments nouveaux .
+CANDIDATE 2: dans la plupart des accords de libre-échange , l' exclusivité des données approche l ' emporte , bienque  quelques derniers contiennent de la possibilité de certains coûts partage . 
+
+ SENTENCE 3 Csrc:although {9} CR:
+ SENTENCE 3 Csrc:although {1} CC:bienque
+SENTENCE 3: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 3: although the cca is not involved as a beneficiary in the “ bizimpact ” project aimed at the sme sector in croatia , it is actively cooperating in its various components .
+REFERENCE 3: mêmesi  elle ne participe pas en tantque  bénéficiaire au projet « bizimpact » destiné au secteur des pme en croatie , elle coopère activement avec les diverses composantes de ce projet .
+CANDIDATE 3: bienque  le cca n' est pas impliqué en tantque  bénéficiaire de la « bizimpact " projet visant à le secteur des pme en croatie , il s' agit de coopérer activement dans ses différentes composantes . 
+
+ SENTENCE 4 Csrc:although {} CR:
+ SENTENCE 4 Csrc:although {1} CC:bienque
+SENTENCE 4: Csrc = although	Cref=Ccand = bienque	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 4: although the case against abbott was unsuccessful , in view of the fact that the case is now in the public domain , it might still act as a deterrent to other enterprises that are dominant and hold intellectual property rights from abusing their dominant position in the market .
+REFERENCE 4: bienque  l' action contre abbott n' ait pas abouti , comme l' affaire est maintenant connue elle pourrait bien dissuader d' autres entreprises qui sont en position dominante et qui détiennent des droits de propriété intellectuelle d' abuser de leur position dominante .
+CANDIDATE 4: bienque  le cas contre abbott , a échoué , compte tenu du fait que l' affaire est àprésent  dans le domaine public , il pourrait encore agir comme un élément de dissuasion à d' autres entreprises qui sont dominants et organiser des droits de propriété intellectuelle d' abuser de leur position dominante sur le marché . 
+
+ SENTENCE 5 Csrc:eventhough {17} CR:,
+ SENTENCE 5 Csrc:eventhough {18} CC:mêmesi
+SENTENCE 5: Csrc = eventhough	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 5: ) it is not known which duration or breadth provides the “ best ” balance , eventhough laws must - and do - make choices .
+REFERENCE 5: ) on ne sait pas quelle durée ou quelle portée offre le « meilleur » équilibre , mêmesi  la loi doit faire des choix , et le fait effectivement .
+CANDIDATE 5: ) il n' est pas connu qui durée ou étendue offre la meilleure « équilibre » , mêmesi  les lois doivent - et de le faire - de faire des choix . 
+
+ SENTENCE 6 Csrc:eventhough {9} CR:,
+ SENTENCE 6 Csrc:eventhough {6} CC:mêmesi
+SENTENCE 6: Csrc = eventhough	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 6: the commission noted that - eventhough the nickel marketing agreement between bnc , mmcz and glencore international was restrictive - its competitive effects were felt more on foreign markets than on the local zimbabwean market , where bnc was the sole nickel producer and the product was not consumed .
+REFERENCE 6: la commission de la concurrence a relevé que , mêmesi  l' accord pour la commercialisation du nickel passé entre bnc , mmcz et glencore international était restrictif , ses effets sur la concurrence étaient davantage ressentis sur les marchés étrangers que sur le marché zimbabwéen , où bnc était l' unique producteur de nickel et où le produit n' était pas utilisé .
+CANDIDATE 6: la commission note que - mêmesi  le nickel commercialisation accord entre bnc , mmcz et glencore international a été restrictive - les effets ont été ressentis plus compétitive sur les marchés étrangers que sur le marché local du zimbabwe , où bnc était le seul producteur de nickel et le produit n' était pas consommé . 
+
+ SENTENCE 7 Csrc:eventhough {1} CR:bienque
+ SENTENCE 7 Csrc:eventhough {1} CC:mêmesi
+SENTENCE 7: Csrc = eventhough (eventhoughCONCESSION)	Cref = bienque	Ccand = mêmesi	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 7: eventhough this risk estimation is very conservative due to the basic maximum detected levels it can be concluded that the dietary risks are of concern .
+REFERENCE 7: bienque  il s' agisse d' une estimation très prudente en raison des niveaux maximums de référence détectés , on peut conclure que les risques liés à l' ingestion via la nourriture sont préoccupants .
+CANDIDATE 7: mêmesi  ce risque estimation est très conservatrice en raison de la base des niveaux maximum détecté il peut être conclu que les risques alimentaires sont une source de préoccupation . 
+
+ SENTENCE 8 Csrc:meanwhile {1} CR:entre-temps
+ SENTENCE 8 Csrc:meanwhile {1} CC:entre-temps
+SENTENCE 8: Csrc = meanwhile	Cref=Ccand = entre-temps	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 8: meanwhile , an advisory group was appointed to advise the governor on policy .
+REFERENCE 8: entre-temps , un groupe consultatif a été nommé pour conseiller le gouverneur en matière de politique .
+CANDIDATE 8: entre-temps , un groupe consultatif , a été nommé à conseiller le gouverneur sur la politique . 
+
+ SENTENCE 9 Csrc:meanwhile {13} CR:politique
+ SENTENCE 9 Csrc:meanwhile {1} CC:entre-temps
+SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = entre-temps	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 9: meanwhile , the united states congress reopened consideration of puerto rico 's political status in early 2007 , as two pieces of draft legislation aimed at resolving the status issue were debated in the subcommittee on insular affairs of the committee on natural resources .
+REFERENCE 9: de son côté , le congrès a repris l' examen du statut politique de porto rico début 2007 , deux propositions de loi visant à régler la question du statut étant alors examinées par le sous-comité chargé des affaires insulaires au sein du comité des ressources naturelles .
+CANDIDATE 9: entre-temps , le congrès américain a réouvert considération de puerto rico le statut politique au début de 2007 , comme deux éléments de la proposition de législation visant à résoudre la question du statut a été débattu au sein de la sous-commission des affaires coupée de la commission sur les ressources naturelles . 
+
+ SENTENCE 10 Csrc:since {} CR:
+ SENTENCE 10 Csrc:since {73} CC:étantdonnéque
+SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = parceque	Ccand = étantdonnéque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 10: the indonesian submission to the eighth session intergovernmental group of experts on competition law and policy meeting describes the popular view in that country : ( a ) ip rights are the rights of advanced countries ; ( b ) competition law also belongs only to developed countries ; and ( c ) people buy pirated products since they are much cheaper than licensed products .
+REFERENCE 10: la communication de l' indonésie à la huitième session du groupe intergouvernemental d' experts du droit et de la politique de la concurrence montre bien l' opinion populaire en cours dans ce pays : a ) les droits de propriété intellectuelle sont ceux des pays avancés ; b ) le droit de la concurrence appartient aussi aux seuls pays développés ; et c ) les gens achètent des produits piratés parceque  ils coûtent beaucoup moins cher que les produits fabriqués sous licence .
+CANDIDATE 10: la soumission indonésien à la huitième session groupe intergouvernemental d ' experts sur le droit de la concurrence et de réunion politique décrit l' opinion populaire dans ce pays : ( a ) des droits de propriété intellectuelle sont les droits de pays avancé ; ( b ) le droit de la concurrence , également appartient-il uniquement aux pays développés ; et ( c ) les gens achètent des produits piratés , étantdonnéque  ils sont beaucoup moins chers que les produits sous licence . 
+
+ SENTENCE 11 Csrc:since {} CR:
+ SENTENCE 11 Csrc:since {26} CC:étantdonnéque
+SENTENCE 11: Csrc = since (sinceCAUSAL)	Cref = puisque	Ccand = étantdonnéque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 11: but they could help ( anticompetitive ) price coordination and could raise barriers to market access of other competitors , since they could be forced to negotiate with all firms involved or impose terms that are abusive to non-members .
+REFERENCE 11: mais ces licences croisées peuvent aussi favoriser une entente sur les prix ( anticoncurrentiel ) et dresser des obstacles à l' accès au marché d' autres concurrents , puisque ces derniers pourraient être contraints de négocier avec toutes les entreprises concernées , ou imposer des conditions excessives aux non-membres .
+CANDIDATE 11: mais ils pourraient aider ( anticompetitive ) et la coordination des prix pourrait soulever des barrières à l' accès au marché des autres concurrents , étantdonnéque  ils pourraient être contraints de négocier avec toutes les sociétés impliquées ou imposer des termes que sont injurieux aux états . 
+
+ SENTENCE 12 Csrc:since {} CR:
+ SENTENCE 12 Csrc:since {1} CC:depuis
+SENTENCE 12: Csrc = since	Cref = comme	Ccand = depuis	==> case 3: Incompatible connectives 
+
+SOURCE 12: since the process of patent granting is usually left for ipr authorities alone , one might wish to deliberate on how possible anticompetitive effects from poor quality patents could be anticipated and possibly avoided .
+REFERENCE 12: comme la procédure de délivrance des brevets relève généralement des seules autorités chargées des droits de propriété intellectuelle , il serait peut-être souhaitable d' avoir un débat sur la manière d' anticiper et d' éviter si possible les effets anticoncurrentiels des brevets de qualité médiocre .
+CANDIDATE 12: depuis le processus d' octroi des brevets est généralement laissée pour les dpi autorités uniquement , on pourrait souhaiter à délibérée anticompetitive possible sur la manière dont les effets de mauvaise qualité des brevets pourrait être anticipé et peut-être évité . 
+
+ SENTENCE 13 Csrc:though {22 30} CR:mêmesi sont
+ SENTENCE 13 Csrc:though {17} CC:mêmesi
+SENTENCE 13: Csrc = though	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 13: thus , trademarks may also be involved in parallel trade discussions , though patents appear to be the main focus .
+REFERENCE 13: par conséquent , les marques de fabrique et de commerce peuvent également faire partie des débats sur le commerce parallèle , mêmesi  il apparaît que les brevets en sont le principal objet .
+CANDIDATE 13: donc , les marques , peuvent également être impliqués dans le commerce parallèle des discussions , mêmesi  les brevets semble être l' objectif principal . 
+
+ SENTENCE 14 Csrc:though {1} CR:le
+ SENTENCE 14 Csrc:though {19} CC:mêmesi
+ SENTENCE 14 Csrc:though have as possible translation in Cand:si
+ SENTENCE 14 Csrc:though have as possible translation in Cand:mêmesi
+ SENTENCE 14 Csrc:though and Ccand:si will be replaced/confirmed by CC:mêmesi 
+SENTENCE 14: Csrc = though	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 14: the if has been extended to 31 african ldcs , including cape verde , though the latter is no longer in the ldcs category .
+REFERENCE 14: le nombre de pma africains bénéficiaires du cadre intégré a été porté à 31 et comprend notamment le cap-vert , mêmesi  ce dernier ne fait plus partie de la catégorie des pma .
+CANDIDATE 14: si la a été étendue à 31 , y compris les pays les moins avancés africaine cap-vert , mêmesi  ce dernier n' est plus dans la catégorie des pays les moins avancés .
+
+ SENTENCE 15 Csrc:while {21} CR:pas
+ SENTENCE 15 Csrc:while {28} CC:vue
+SENTENCE 15: Csrc = while	Cref=Ccand = tandisque	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 15: the empirical work on how market structure affects innovation is also unclear , with some arguing that the data support the arrowian view while others state that the most innovative markets are neither too competitive nor too monopolized .
+REFERENCE 15: quant aux travaux empiriques menés sur la manière dont la structure du marché affecte l' innovation , ils n' apportent pas de certitude , certains faisant valoir que les données vont dans le sens de la doctrine d' arrow tandisque  d' autres déclarent que les marchés les plus novateurs ne sont ni trop compétitifs ni trop monopolisés .
+CANDIDATE 15: le travail sur la façon empirique structure de marché affecte l ' innovation est aussi floue , avec certains affirmant que les données soutenir le point de vue arrowian tandisque  d' autres que l' état le plus novateur des marchés ne sont ni trop compétitive ni trop monopolized . 
+
+ SENTENCE 16 Csrc:while {1} CR:du
+ SENTENCE 16 Csrc:while {58} CC:touten
+SENTENCE 16: Csrc = while	Cref=Ccand = touten	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 16: from a development perspective , the challenges are to identify the core policy components that are required to form a modern ipr system , to improve the coherence of ipr policies and other relevant policies , and to ameliorate the institutional design to enhance the functioning of an ipr regime , while ensuring that abusive use of iprs does not stifle innovation and economic growth .
+REFERENCE 16: du point de vue du développement , les difficultés à surmonter consistent à identifier les éléments incontournables qui doivent faire partie d' un système moderne de droits de propriété intellectuelle , à améliorer la cohérence des politiques en matière de dpi et des autres politiques pertinentes et à améliorer la structure institutionnelle afin que le régime de dpi fonctionne mieux , touten  veillant à ce qu' une utilisation abusive des dpi n' étouffe pas l' innovation et la croissance économique .
+CANDIDATE 16: du point de vue du développement , les défis sont à identifier la politique essentielle de composants qui sont requis pour former un système moderne de dpi , d' améliorer la cohérence des dpi politiques et d' autres politiques concernées , et à améliorer la conception institutionnelle pour améliorer le fonctionnement d' un régime de dpi , touten  garantissant que l' utilisation abusive de les droits de propriété intellectuelle ne pas étouffer l' innovation et la croissance économique . 
+
+ SENTENCE 17 Csrc:while {21} CR:du
+ SENTENCE 17 Csrc:while {1} CC:touten
+SENTENCE 17: Csrc = while	Cref = 0	Ccand = touten	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 17: while considering the above arguments , one should not lose sight of competition authorities ' capture by the private sector .
+REFERENCE 17: il convient de ne pas perdre de vue , dans le raisonnement qui précède , le problème de l' emprise du secteur privé sur les autorités de concurrence .
+CANDIDATE 17: touten  étant donné les arguments ci-dessus , il convient de ne pas perdre de vue les autorités chargées de la concurrence " capturer par le secteur privé . 
+
+ SENTENCE 18 Csrc:yet {20} CR:une
+ SENTENCE 18 Csrc:yet {1} CC:pourtant
+SENTENCE 18: Csrc = yet	Cref = mais	Ccand = pourtant	==> case 3: Incompatible connectives 
+
+SOURCE 18: yet the design of ipr policy in developing countries is a cross-cutting issue and must balance the needs to protect iprs , to promote technological diffusion and to develop the domestic industry and innovation capacity , taking into account the flexibilities granted by trips .
+REFERENCE 18: mais l' élaboration de la politique en matière de droits de propriété intellectuelle dans les pays en développement est une question intersectorielle , car il faut trouver un équilibre entre la nécessité de protéger les droits de propriété intellectuelle , la nécessité de promouvoir la diffusion des technologies et celle de développer l' industrie nationale et la capacité d' innovation , en tenant compte des flexibilités autorisées par l' accord sur les adpic .
+CANDIDATE 18: pourtant , la conception des dpi politique dans les pays en développement est une question transversale et doivent trouver le juste équilibre entre les besoins de protéger les droits de propriété intellectuelle , à promouvoir la diffusion technologique et à développer l' industrie nationale et la capacité d ' innovation , en prenant en considération la souplesse octroyée par l' accord adpic . 
+
+ SENTENCE 19 Csrc:yet {} CR:
+ SENTENCE 19 Csrc:yet {12} CC:encore
+SENTENCE 19: Csrc = yet (yetADVERB)	Cref = pasencore	Ccand = encore	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 19: square brackets indicate alternative wording or text on which there is as yet no agreement ; all paragraphs that contain no brackets are ad referendum .
+REFERENCE 19: les crochets indiquent un texte qui n' a pasencore  fait l' objet d' un accord ; tous les paragraphes qui ne sont pas entre crochets sont ad referendum .
+CANDIDATE 19: points indiquent formulation alternative ou texte sur lequel il n' existe encore aucun accord ; tous les paragraphes qui contiennent pas de points sont ad referendum . 
+
+ SENTENCE 20 Csrc:yet {14} CR:une
+ SENTENCE 20 Csrc:yet {1} CC:pourtant
+SENTENCE 20: Csrc = yet	Cref = toutefois	Ccand = pourtant	==> case 3: Incompatible connectives 
+
+SOURCE 20: yet national vision and ownership of the growth process were seen as vital .
+REFERENCE 20: l' appropriation du processus de croissance par les pays et l' adoption d' une approche nationale ont toutefois été considérées comme vitales .
+CANDIDATE 20: pourtant , vision nationale et l' appropriation des processus de croissance ont été considéré comme essentiel . 
+
+****************************** 
+****************************** 
+*** 
+****************************** 
+Number of different sentences: 20 
+Number of discourse connectives: 20 
+*************Statistical informations about the correspondence between alignment information and detected connectors ***************** 
+The reference connector is equal to the alignment information (Cref Eq CR): 2 
+The reference connector is not equal to the alignment information (Cref Not Eq CR): 15 
+The candidate connector is equal to the alignment information (Ccand Eq CC): 18 
+The candidate connector is not equal to the alignment information (Ccand Not Eq CC): 2 
+****************************** 
+*** 
+case 1: 8 
+case 2: 6 
+case 3: 3 
+case 4: 0 
+case 5: 3 
+case 6: 0 
+*** 
+ACTa:   0.700 
+ACTa5+6:   0.824 
+ACTm:   0.700 
+*** 
+****************************** 
+
+ Done in  4 seconds
+****************************** 

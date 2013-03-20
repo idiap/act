@@ -1,0 +1,21 @@
+*******************************************Case 3: Incompatible connectives *******************************
+***SENTENCE 2: Csrc = although	Cref = tuttavia	Ccand = sebbene***
+SOURCE 2: although annual m3 growth of still above 10 % overstates the underlying pace of monetary expansion , owing to the impact of the flat yield curve and other temporary factors , nonetheless , even after taking such effects into account , a broad-based assessment of the latest data confirms that the underlying rate of money and credit growth remains strong .
+REFERENCE 2: la crescita di m3 , tuttora superiore al 10 per cento , sovrastima il tasso di incremento di fondo di la moneta , a causa di il profilo piatto di la curva dei rendimenti e di altri fattori di carattere temporaneo ; tuttavia , pure tenendo conto di tali effetti , una valutazione di ampio respiro degli ultimi dati conferma che l' espansione di fondo di la moneta e di il credito resta vigorosa .
+CANDIDATE 2: sebbene la crescita di m3 annuale ancora superiore al 10 per cento sopravvaluta il ritmo di fondo di la espansione monetaria , a causa di la impatto di la curva di rendimento piatta e altri fattori temporanei , tuttavia , anche dopo aver assunto effetti conto , un' ampia valutazione degli ultimi dati conferma che il tasso sottostante di denaro e rimane forte crescita di il credito . 
+
+***SENTENCE 3: Csrc = although	Cref = ma	Ccand = sebbene***
+SOURCE 3: at the same time , higher short-term interest rates have served to moderate the growth of household borrowing , although cooling housing markets in several parts of the euro area have also played a substantial role in this regard .
+REFERENCE 3: nelcontempo  , l' innalzamento dei tassi di interesse a breve ha comportato una decelerazione di la indebitamento delle famiglie , ma un ruolo rilevante in questo senso è stato svolto anche da la diminuzione di la attività nei mercati degli immobili residenziali in diverse regioni di la area di la euro .
+CANDIDATE 3: allostessotempo  , più elevati tassi di interesse a breve termine sono serviti a moderare la crescita di indebitamento delle famiglie , sebbene il raffreddamento mercati immobiliari in diverse parti di la zona euro hanno svolto un ruolo sostanziale a questo proposito . 
+
+***SENTENCE 7: Csrc = however	Cref = tuttavia	Ccand = ora***
+SOURCE 7: the start date should now be advanced to 1995 , however , due to limited availability
+REFERENCE 7: la data d' inizio dovrebbe essere anticipata al 1995 , tuttavia , a causa di una limitata disponibilità di dati precedenti al 1995 .
+CANDIDATE 7: la data di partenza dovrebbe ora essere avanzati al 1995 , tuttavia , a causa di disponibilità limitata 
+
+***SENTENCE 10: Csrc = however	Cref = nondimeno	Ccand = tuttavia***
+SOURCE 10: however , upside risks to price stability over the medium term need to be monitored closely .
+REFERENCE 10: nondimeno , vanno tenuti sotto stretta osservazione i rischi al rialzo per la stabilità dei prezzi nel medio periodo .
+CANDIDATE 10: tuttavia , potenziali rischi per la stabilità dei prezzi nel medio termine necessità di essere monitorata da vicino . 
+

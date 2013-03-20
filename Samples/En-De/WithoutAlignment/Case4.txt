@@ -1,0 +1,6 @@
+*******************************************Case 4: Not translated in Cand ==> likely not ok *******************************
+***SENTENCE 5: Csrc = although	Cref = auchwenn	Ccand = 0***
+SOURCE 5: although there is a commitment of the state authorities to comply with the delivery of these resources , he said that the request was made ​ ​ to the secretary of administration and finance , armando villarreal , to speed up the efforts so that the percentages that correspond to them to come as quickly as possible .
+REFERENCE 5: auchwenn die staatlichen behörden zur auszahlung dieser mittel verpflichtet seien , kommentierte er , dass beim minister für verwaltung und finanzen , , beantragt wurde , die verwaltungsarbeiten zu beschleunigen und den ausstehenden anteil so schnell wie möglich auszuzahlen .
+CANDIDATE 5: auch eine verpflichtung der staatlichen behörden auf die einhaltung der lieferung von diesen ressourcen , sagte er , dass der antrag wurde steckenzubleiben der generalsekretär der verwaltung und finanzminister , armando villarreal zu beschleunigen , die bemühungen , so dass die prozentsätze , dass auf sie so schnell wie möglich . 
+

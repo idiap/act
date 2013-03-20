@@ -1,0 +1,16 @@
+*******************************************Case 3: Incompatible connectives *******************************
+***SENTENCE 5: Csrc = eventhough	Cref =  mE An	Ccand = Alrgm***
+SOURCE 5: the prolonged absence of the president of the national assembly , eventhough he had been specifically invited to return and eventhough all the other members of his delegation had already come back , had heightened the feelings of uncertainty and insecurity .
+REFERENCE 5: w+ mn jhp Axry , tnAmt m$AEr AlHyrp w+ Edm AlATm}nAn mn jrA' AlgyAb AlmTwl l+ r}ys AljmEyp AlwTnyp En Albld , mE An +h dEy b+ AlHAH Aly AlEwdp , w+ mE An AlAEDA' AlAxryn fy Alwfd Al*y kAn yqwd +h qd EAdwA b+ AlfEl .
+CANDIDATE 5: fy gyAb r}ys AljmEyp AlwTnyp , b+ Alrgm mn An +h tm dEwp l+ AlEwdp w+ Ely Alrgm mn An jmyE AEDA' wfd +h sbq An nEwd , zAd mn m$AEr Alrybp w+ AnEdAm AlAmn . 
+
+***SENTENCE 5: Csrc = eventhough	Cref =  mE An	Ccand = Alrgm***
+SOURCE 5: the prolonged absence of the president of the national assembly , eventhough he had been specifically invited to return and eventhough all the other members of his delegation had already come back , had heightened the feelings of uncertainty and insecurity .
+REFERENCE 5: w+ mn jhp Axry , tnAmt m$AEr AlHyrp w+ Edm AlATm}nAn mn jrA' AlgyAb AlmTwl l+ r}ys AljmEyp AlwTnyp En Albld , mE An +h dEy b+ AlHAH Aly AlEwdp , w+ mE An AlAEDA' AlAxryn fy Alwfd Al*y kAn yqwd +h qd EAdwA b+ AlfEl .
+CANDIDATE 5: fy gyAb r}ys AljmEyp AlwTnyp , b+ Alrgm mn An +h tm dEwp l+ AlEwdp w+ Ely Alrgm mn An jmyE AEDA' wfd +h sbq An nEwd , zAd mn m$AEr Alrybp w+ AnEdAm AlAmn . 
+
+***SENTENCE 11: Csrc = since	Cref = Hyv	Ccand =  mn****
+SOURCE 11: in addition , an expanded ohchr field presence may itself help to create conflict resolution opportunities since engagements with belligerents on human rights issues create space for discussion of political issues .
+REFERENCE 11: w+ ADAfp Aly *lk , qd ykwn mn $An twsyE wjwd AlmfwDyp b+ AlmydAn fy Hd *At +h thy}p frS tswyp AlSrAEAt , Hyv An Alm$Arkp mE AlmtHArbyn fy qDAyA Hqwq AlAnsAn yftH AlmjAl AmAm mnAq$p AlqDAyA AlsyAsyp .
+CANDIDATE 11: w+ b+ AlADAfp Aly *lk , w+ twsyE nTAq Alwjwd AlmydAny l+ AlmfwDyp An +hA tsAEd Ely AyjAd Hl AlSrAEAt AlfrS mn* AlA$tbAkAt mE AlmtHArbyn fy qDAyA Hqwq AlAnsAn thy}p AlmjAl l+ mnAq$p AlmsA}l AlsyAsyp . 
+

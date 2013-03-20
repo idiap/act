@@ -1,0 +1,23 @@
+SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	PositionCref=32	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 2: Csrc = although	Cref = 0	Ccand = bienque	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 3: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 4: Csrc = although	Cref=Ccand = bienque	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 5: Csrc = eventhough	Cref=Ccand = mêmesi	PositionCref=18	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 6: Csrc = eventhough	Cref=Ccand = mêmesi	PositionCref=10	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 7: Csrc = eventhough (eventhoughCONCESSION)	Cref = bienque	Ccand = mêmesi	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 8: Csrc = meanwhile	Cref=Ccand = entre-temps	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = entre-temps	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = parceque	Ccand = étantdonnéque	PositionCref=71	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 11: Csrc = since (sinceCAUSAL)	Cref = puisque	Ccand = étantdonnéque	PositionCref=29	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 12: Csrc = since	Cref = comme	Ccand = depuis	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 13: Csrc = though	Cref=Ccand = mêmesi	PositionCref=22	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 14: Csrc = though	Cref=Ccand = mêmesi	PositionCref=21	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 15: Csrc = while	Cref=Ccand = tandisque	PositionCref=40	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 16: Csrc = while	Cref=Ccand = touten	PositionCref=62	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 17: Csrc = while	Cref = 0	Ccand = touten	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 18: Csrc = yet	Cref = mais	Ccand = pourtant	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 19: Csrc = yet (yetADVERB)	Cref = pasencore	Ccand = encore	PositionCref=9	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 20: Csrc = yet	Cref = toutefois	Ccand = pourtant	PositionCref=18	==> case 3: Incompatible connectives 
+****************************** 
+
+ Done in  4 seconds

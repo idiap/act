@@ -1,0 +1,11 @@
+*******************************************Case 4: Not translated in Cand ==> likely not ok *******************************
+***SENTENCE 3: Csrc = although	Cref = An__lm	Ccand = 0***
+SOURCE 3: we have also provided guidance and made our expertise available , although not as systematically as required .
+REFERENCE 3: w--qdmnA k--§lk Ar$AdAt , w--jElnA xbrAt--nA mtAHp l--mn yTlb--hA w--An__lm  ykn §lk b--Swrp mnhjyp k--mA ynbgy .
+CANDIDATE 3: kmA qdmt twjyhAt w--xbrAt--nA , lys b--Hsb AlAqtDA' . 
+
+***SENTENCE 20: Csrc = yet	Cref = Ely__An	Ccand = 0***
+SOURCE 20: yet at this very point there is a gaping hole in the united nations institutional machinery : no part of the united nations system effectively addresses the challenge of helping countries with the transition from war to lasting peace .
+REFERENCE 20: 2 - Ely__An  vmp fy h§h AlnqTp b--Al§At Hlqp DEyfp fy AlAlyp Alm&ssyp l--AlAmm AlmtHdp : A§ lA ywjd jhp fy mnZwmp AlAmm AlmtHdp ttwly b--fEAlyp mEAljp AltHdy Almtmvl fy msAEdp AlbldAn Alty tmr b--mrHlp AlAntqAl mn AlHrb Aly AlslAm AldA}m .
+CANDIDATE 20: w--fy h§h AlnqTp b--Al§At hnAk AlEtyqp AlAxry fy AlAmm AlmtHdp Alyp m&ssy--h : Ay jz' mn mnZwmp AlAmm AlmtHdp b--$kl fEAl yEAlj AltHdy Almtmvl fy msAEdp AlbldAn Ely AlAntqAl mn AlHrb Aly AlslAm AldA}m . 
+

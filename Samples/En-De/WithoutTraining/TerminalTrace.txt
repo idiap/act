@@ -1,0 +1,254 @@
+$ACTHOME=/Users/Hajlaoui/tools/ACT/ACT-V1.7 
+$WorkingDir=/Users/Hajlaoui/tools/ACT/ACT-V1.7/Samples/En-De/WithoutTraining 
+$SourceFile=20test_src.en.lc 
+$ReferenceFile=20test_ref.de.lc 
+$CandidateFile=20test_cand.de.lc 
+$SourceLanguage=en 
+$TargetLanguage=de 
+$case5manual=0 
+$case6manual=0 
+$PrintReport=1 
+$PrintCase5=0 
+$UsingAlignment=1 
+$PrintAligInfos=1 
+$GizaModel=1 
+$RunGiza=1 
+$PathToGIZA=/Users/Hajlaoui/tools/giza-pp-v1.0.7/giza-pp/GIZA++-v2 
+$SavingModel=0 
+$SavingModel_Src_Ref=2100-ar-en-zh.SMTB2.Src-Ref.toact.V1.4.en-ar.grow-diag-final-and.giza 
+$SavingModel_Src_Cand=2100-ar-en-zh.SMTB2.Src-Cand.toact.V1.4.en-ar.grow-diag-final-and.giza 
+ 
+
+************ Run plain2snt ************ 
+************ Run Giza++ ************ 
+************ end Run Giza++ ************ 
+************ Cleaning data ************ 
+************ Processing Alignment results ************ 
+
+ SENTENCE 1 Csrc:although {} CR:
+ SENTENCE 1 Csrc:although {20} CC:obwohl
+SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 1: the campaign by consumer advocates is directed specifically at the head of deutsche bank , josef ackermann , although large banking houses such as goldman sachs and morgan stanley trade in the same way .
+REFERENCE 1: die kampagne der verbraucherschützer richtet sich konkret gegen deutsche-bank-chef josef ackermann , auchwenn großbanken wie goldman sachs oder morgan stanley ähnlich agieren .
+CANDIDATE 1: die kampagne von verbraucher , befürwortet wird , speziell an der spitze der deutschen bank , josef ackermann , obwohl die großen banken häuser wie von goldman sachs und morgan stanley handel in der gleichen weise . 
+
+ SENTENCE 2 Csrc:although {} CR:
+ SENTENCE 2 Csrc:although {32} CC:obwohl
+SENTENCE 2: Csrc = although (althoughCONCESSION)	Cref = wobei	Ccand = obwohl	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 2: if they were , they arguably fell under code &apos;s canon 4c , which states , &quot; a judge may attend fund-raising events of law-related and other organizations although the judge may not be a speaker , a guest of honor , or featured on the program of such an event . &quot;
+REFERENCE 2: wären sie es , würden sie wohl unter grundsatz 4c des kodex fallen , der folgendes besagt : &quot; ein richter kann an benefizveranstaltungen gesetzes naher und anderer organisationen teilnehmen , wobei der richter kein sprecher , ehrengast oder laut programm kein gast einer solchen veranstaltungen sein darf . &quot;
+CANDIDATE 2: wenn sie , dass sie wohl unter kodex der canon 4 c vorsieht , die staaten , &quot; ein richter , anwesend sein kann geldbeschaffung ereignisse law-related und anderen organisationen , obwohl die richter nicht ein redner , ein gast des honor , oder auf das infrastrukturinvestitionsprogramm neu einen solchen fall . &quot; 
+
+ SENTENCE 3 Csrc:although {10} CR:obwohl
+ SENTENCE 3 Csrc:although {10} CC:obwohl
+SENTENCE 3: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 3: panetta has been increasingly outspoken about the possible cuts , although he came to the top pentagon job with years of budget expertise himself in congress and the white house and knowing that he was facing tough choices .
+REFERENCE 3: panetta hat zunehmend unverblümt die möglichen kürzungen ausgesprochen , obwohl er viele jahre erfahrungen mit dem budget im kongress und im weißen haus sammeln konnte , bevor er an die spitze des pentagons kam , und weiß , dass er schweren entscheidungen gegenüber steht .
+CANDIDATE 3: panetta hat zunehmend offenen über die möglichen kürzungen , obwohl er kam zu dem obersten pentagon arbeit mit jahre haushalt sachkenntnissen selbst im kongress und im weißen haus , und wir wissen , dass er war vor schweren entscheidungen . 
+
+ SENTENCE 4 Csrc:although {13} CR:obwohl
+ SENTENCE 4 Csrc:although {11} CC:obwohl
+SENTENCE 4: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 4: the director of municipal social development indicated that although so far the work programs have advanced they are at risk because the state government failed to make the contributions that correspond , which represent a resource superior to 11 million pesos in all three programs .
+REFERENCE 4: der leiter der städtischen behörde für soziale entwicklung erklärte , dass , obwohl die bauprogramme schon fortgeschritten sind , sie jetzt in gefahr schweben , da die staatsregierung die ihr zustehenden mittel , die für die drei programme 11 millionen peso überschreiten , nicht gezahlt hat .
+CANDIDATE 4: der direktor der städtischen soziale entwicklung sagte , dass , obwohl bisher die arbeit , die programme haben sie sind gefährdet , weil die regierung nicht die beiträge , entsprechen , die eine ressource seien 11 millionen pesos in allen drei computerprogramme . 
+
+ SENTENCE 5 Csrc:although {} CR:
+ SENTENCE 5 Csrc:although {} CC:
+SENTENCE 5: Csrc = although	Cref = auchwenn	Ccand = 0	==> case 4: Not translated in Cand ==> likely not ok 
+
+SOURCE 5: although there is a commitment of the state authorities to comply with the delivery of these resources , he said that the request was made ​ ​ to the secretary of administration and finance , armando villarreal , to speed up the efforts so that the percentages that correspond to them to come as quickly as possible .
+REFERENCE 5: auchwenn die staatlichen behörden zur auszahlung dieser mittel verpflichtet seien , kommentierte er , dass beim minister für verwaltung und finanzen , , beantragt wurde , die verwaltungsarbeiten zu beschleunigen und den ausstehenden anteil so schnell wie möglich auszuzahlen .
+CANDIDATE 5: auch eine verpflichtung der staatlichen behörden auf die einhaltung der lieferung von diesen ressourcen , sagte er , dass der antrag wurde steckenzubleiben der generalsekretär der verwaltung und finanzminister , armando villarreal zu beschleunigen , die bemühungen , so dass die prozentsätze , dass auf sie so schnell wie möglich . 
+
+ SENTENCE 6 Csrc:although {17} CR:obwohl
+ SENTENCE 6 Csrc:although {10} CC:obwohl
+SENTENCE 6: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 6: he is expected to present a cabinet composed largely of technocrats , although it is unclear when the new executive will undertake the position .
+REFERENCE 6: es wird davon ausgegangen , dass er ein mehrheitlich aus technokraten zusammengesetztes kabinett vorstellen wird , obwohl noch nicht klar ist , wann der neue ministerpräsident sein amt antreten wird .
+CANDIDATE 6: er ist auf ein kabinett aus weitgehend technokratenmeinung , obwohl er ist unklar , wann die neue die position . 
+
+ SENTENCE 7 Csrc:although {46} CR:obwohl
+ SENTENCE 7 Csrc:although {38} CC:obwohl
+ SENTENCE 7 Csrc:although have as possible translation in Ref: aber
+ SENTENCE 7 Csrc:although have as possible translation in Ref:obwohl
+ SENTENCE 7 Csrc:although and Cref :aber will be replaced/confirmed by CR:obwohl 
+ SENTENCE 7 Csrc:although have as possible translation in Cand: aber
+ SENTENCE 7 Csrc:although have as possible translation in Cand:obwohl
+ SENTENCE 7 Csrc:although and Ccand:aber will be replaced/confirmed by CC:obwohl 
+SENTENCE 7: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 7: it &apos;s interesting because i think there are a couple of songs on the album that may appear lighter , but there are songs like the end or just breathe that are qualified as very dark although they can sound a little positive .
+REFERENCE 7: das ist interessant , denn ich glaube , es gibt ein paar songs auf dem neuen album , die etwas leichtfertig wirken könnten . aber es gibt auch andere lieder wie the end oder just breathe , die als sehr dunkle songs eingestuft werden , obwohl sie auch etwas positives an sich haben .
+CANDIDATE 7: das interessante , weil ich glaube , ein paar lieder auf dem album , die vielleicht leichteren , aber es gibt lieder wie der end oder nur parlamentsluft , die qualifiziert sind , wie sehr dunklen , obwohl sie kann eine gute ein wenig positiv . 
+
+ SENTENCE 8 Csrc:although {} CR:
+ SENTENCE 8 Csrc:although {1} CC:obwohl
+SENTENCE 8: Csrc = although (althoughCONCESSION)	Cref = allerdings	Ccand = obwohl	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 8: although the player will find new movements , the surroundings , costumes and enemies and also a &quot; playable &quot; luigi .
+REFERENCE 8: allerdings stößt der spieler auf neuigkeiten bei den bewegungen , der umwelt , den verkleidungen und den feinden - und einen &quot; spielbaren &quot; luigi .
+CANDIDATE 8: obwohl die spieler werden neue bewegungen , die umgebung , trachten und feinde und auch ein &quot; playable &quot; luigi . 
+
+ SENTENCE 9 Csrc:although {26} CR:obwohl
+ SENTENCE 9 Csrc:although {22} CC:obwohl
+SENTENCE 9: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 9: modolo remembers that there is already a work done by the board of collserola that &quot; should not fall on deaf ears , &quot; although he is grateful for the opportunity that the city hall offers to his profession to intervene in this project &quot; from the very beginning . &quot;
+REFERENCE 9: modol erinnert daran , dass es bereits eine studie vom patronat de collserola gibt , die nicht &quot; auf taube ohren stoßen sollte &quot; , obwohl er der stadtverwaltung dankbar sei , dass sie seinem gremium die möglichkeit gegeben hat , an diesem projekt &quot; vom ersten augenblick an &quot; mitzuwirken .
+CANDIDATE 9: modolo sich daran erinnert , dass bereits eine arbeit der verwaltungsrat collserola , dass &quot; nicht auf taube ohren &quot; , obwohl er ist dankbar für die gelegenheit , dass die stadt halle bietet seinen beruf zu intervenieren , bei diesem projekt &quot; von anfang an . &quot; 
+
+ SENTENCE 10 Csrc:although {} CR:
+ SENTENCE 10 Csrc:although {35} CC:obwohl
+ SENTENCE 10 Csrc:although have as possible translation in Ref:während
+ SENTENCE 10 Csrc:although have as possible translation in Ref:jedoch
+ SENTENCE 10 Csrc:although and Cref :während will be replaced/confirmed by the nearest connective to the source one:jedoch 
+ SENTENCE 10 Csrc:although have as possible translation in Cand:während
+ SENTENCE 10 Csrc:although have as possible translation in Cand:obwohl
+ SENTENCE 10 Csrc:although and Ccand:während will be replaced/confirmed by CC:obwohl 
+SENTENCE 10: Csrc = although	Cref = jedoch	Ccand = obwohl	==> case 3: Incompatible connectives 
+
+SOURCE 10: during the legal diligence , the public prosecutor attached to the court , ramiro arias , questioned garcia gomez whether he had repaired the damage and which of the partners of the betting house granted pardon , although the lawyer tried to reserve the name .
+REFERENCE 10: während der gerichtlichen anhörung fragte ramiro arias , der beamte des dem gericht zugeordneten ministerio público , garcía gómez , ob dieser den schaden behoben habe und welcher der besitzer des wetthauses seine vergebung ausgesprochen habe . der anwalt hielt den namen jedoch zurück .
+CANDIDATE 10: während die sorgfalt , die staatsanwaltschaft an der europäische gerichtshof , ramiro arias , infrage gestellt garcia gomez , ob er repariert die schäden und die die partner der sportwetten haus bse-freiheitsstatus begnadigung , obwohl der anwalt versucht , die reserve der name . 
+
+ SENTENCE 11 Csrc:although {1} CR:obwohl
+ SENTENCE 11 Csrc:although {1} CC:obwohl
+ SENTENCE 11 Csrc:although have as possible translation in Ref:obwohl
+ SENTENCE 11 Csrc:although have as possible translation in Ref: doch
+ SENTENCE 11 Csrc:although and Cref :obwohl will be replaced/confirmed by CR:obwohl 
+SENTENCE 11: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 11: although in both she looked confident , it was noted that she lacked the strength and energy that magdalena and atlántico representatives did show .
+REFERENCE 11: obwohl sie bei beiden sicher auftrat , fehlte ihr doch die kraft und der schwung , den die vertreterinnen von magdalena und atlántico zur schau stellten .
+CANDIDATE 11: obwohl sowohl in sie sich zuversichtlich , wurde festgestellt , dass sie nicht die stärke und energie , magdalena und atlántico vertreter hat zeigen . 
+
+ SENTENCE 12 Csrc:although {1} CR:obwohl
+ SENTENCE 12 Csrc:although {1} CC:auchwenn
+ SENTENCE 12 Csrc:although have as possible translation in Ref:obwohl
+ SENTENCE 12 Csrc:although have as possible translation in Ref: doch
+ SENTENCE 12 Csrc:although and Cref :obwohl will be replaced/confirmed by CR:obwohl 
+SENTENCE 12: Csrc = although (althoughCONCESSION)	Cref = obwohl	Ccand = auchwenn	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 12: although this does not guarantee that it was the murderer , it places him it in the murder scene .
+REFERENCE 12: obwohl das nicht garantiert , dass es sich um den mörder handelt , so wird er doch mit dem ort , an dem die straftat begangen wurde , in zusammenhang gebracht .
+CANDIDATE 12: auchwenn dies nicht gewährleisten , dass sie war der mörder , er legt ihm in den mord . 
+
+ SENTENCE 13 Csrc:although {23} CR:obwohl
+ SENTENCE 13 Csrc:although {25} CC:obwohl
+ SENTENCE 13 Csrc:although have as possible translation in Ref: aber
+ SENTENCE 13 Csrc:although have as possible translation in Ref:obwohl
+ SENTENCE 13 Csrc:although and Cref :aber will be replaced/confirmed by CR:obwohl 
+ SENTENCE 13 Csrc:although have as possible translation in Cand: aber
+ SENTENCE 13 Csrc:although have as possible translation in Cand:obwohl
+ SENTENCE 13 Csrc:although have as possible translation in Cand: während
+ SENTENCE 13 Csrc:although and Ccand:aber will be replaced/confirmed by CC:obwohl 
+SENTENCE 13: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 13: at least for one hour they were able to occupy the place , but then the police came and proceeded to arrest some of the protesters , although bray could not confirm the precise number , while telling efe that he saw several journalists who were also handcuffed .
+REFERENCE 13: sie konnten den ort mindestens eine stunde lang besetzen . aber danach traf die polizei ein und verhaftete einige der demonstranten , obwohl bray keine genauen zahlen geben kann . er versicherte der nachrichtenagentur efe , dass er darunter auch mehrere journalisten mit handschellen gesehen habe .
+CANDIDATE 13: zumindest für eine stunde sie konnten den platz einnimmt , aber dann die polizei kam und unternahm zu verhaften , einige der protestler , obwohl bray nicht bestätigen könnten die genaue zahl , während sagen efe , dass er sah , mehrere journalisten , die auch in handschellen . 
+
+ SENTENCE 13 Csrc:while {6 7} CR:eine stunde
+ SENTENCE 13 Csrc:while {34} CC:während
+ SENTENCE 13 Csrc:while have as possible translation in Ref: aber
+ SENTENCE 13 Csrc:while have as possible translation in Ref:obwohl
+ SENTENCE 13 Csrc:while and Cref :aber will be replaced/confirmed by the nearest connective to the alignment: aber 
+ SENTENCE 13 Csrc:while have as possible translation in Cand: aber
+ SENTENCE 13 Csrc:while have as possible translation in Cand:obwohl
+ SENTENCE 13 Csrc:while have as possible translation in Cand: während
+ SENTENCE 13 Csrc:while and Ccand:aber will be replaced/confirmed by CC:während 
+SENTENCE 13: Csrc = while 	Cref =  aber	Ccand = während	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+ SENTENCE 14 Csrc:although {52} CR:obwohl
+ SENTENCE 14 Csrc:although {44} CC:obwohl
+SENTENCE 14: Csrc = although	Cref=Ccand = obwohl	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+
+SOURCE 14: the economic affairs spokesman , amadeu altafaj , said the troika inspectors would return &quot; very soon &quot; to athens to discuss with the new government &quot; what has to be done to pay the sixth tranche &quot; of 8,000 million , although there is no definite date .
+REFERENCE 14: der sprecher des wirtschaftsministeriums , amadeu altafaj , erklärte , dass die inspektoren der troika &quot; sehr bald &quot; nach athen zurückkämen , um mit der neuen regierung zu besprechen , &quot; was für die zahlung des sechsten abschnitts &quot; in höhe von 8000 millionen euro &quot; vonnöten sei &quot; , obwohl es noch kein endgültiges datum gibt .
+CANDIDATE 14: die wirtschaft sprecher , der sprecher der kommission , sagte der troika kontrolleuren rückkehr &quot; , sehr bald &quot; in athen zu diskutieren , mit der neuen regierung &quot; , was zu tun ist , die sechste tranche &quot; 8.000 millionen wird , obwohl kein konkreten abschlußdatums . 
+
+ SENTENCE 15 Csrc:although {} CR:
+ SENTENCE 15 Csrc:although {1} CC:obwohl
+SENTENCE 15: Csrc = although	Cref = 0	Ccand = obwohl	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 15: although the motion on europe devotes a paragraph to the importance of &quot; franco-german friendship , &quot; angela merkel did not mention france .
+REFERENCE 15: soweit der europa-antrag der bedeutsamkeit der &quot; deutsch-französischen freundschaft &quot; einen paragraphen widmet , ruft angela merkel frankreich nicht auf den plan .
+CANDIDATE 15: obwohl der antrag auf europa zumißt einen punkt auf die bedeutung des &quot; die deutsch-französische freundschaft &quot; , angela merkel nicht erwähnt frankreich . 
+
+ SENTENCE 16 Csrc:although {} CR:
+ SENTENCE 16 Csrc:although {1} CC:obwohl
+ SENTENCE 16 Csrc:although have as possible translation in Ref:auchwenn
+ SENTENCE 16 Csrc:although have as possible translation in Ref:jedoch
+ SENTENCE 16 Csrc:although and Cref :auchwenn will be replaced/confirmed by the nearest connective to the source one:auchwenn 
+SENTENCE 16: Csrc = although (althoughCONCESSION)	Cref = auchwenn	Ccand = obwohl	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 16: although the german model based on renewable energies is sometimes quoted as an example , the reality contradicts that argument .
+REFERENCE 16: auchwenn das auf erneuerbare energiequellen ausgerichtete , deutsche modell gelegentlich als vorbild hingestellt wird , so widerspricht jedoch die realität dem diskurs .
+CANDIDATE 16: obwohl die deutschen modell auf der grundlage von erneuerbaren energien ist manchmal zitiert als beispiel , die realität im widerspruch zu dem argument . 
+
+ SENTENCE 17 Csrc:however {} CR:
+ SENTENCE 17 Csrc:however {1} CC:aber
+SENTENCE 17: Csrc = however	Cref = 0	Ccand = aber	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 17: however , our lifestyle is neither unique nor the best one and would not , most probably , be suitable for , for example , the people of libya .
+REFERENCE 17: nur - unser lebensstil ist nun mal nicht der einzige und objektiv gesehen wohl auch nicht der beste und würde abwechslung den erwähnten libyern kaum passen .
+CANDIDATE 17: aber unsere lebensstil ist weder einmalig noch die beste und würde nicht , wahrscheinlich , die geeignet sein , beispielsweise für die menschen in libyen . 
+
+ SENTENCE 18 Csrc:however {} CR:
+ SENTENCE 18 Csrc:however {19} CC:stagnierte
+SENTENCE 18: Csrc = however	Cref = jedoch	Ccand = allerdings	==> case 3: Incompatible connectives 
+
+SOURCE 18: in this year &apos;s third quarter , czech economy showed an interim increase of 1.5 % ; however , it stagnated between the quarters .
+REFERENCE 18: die tschechische wirtschaft wuchs im diesjährigen dritten quartal im vergleich zum vorjahr um 1,5 prozent , im vergleich zum vorangegangenen quartal stagnierte sie jedoch .
+CANDIDATE 18: in diesem jahr im dritten quartal , die tschechische wirtschaft hat konsens-übergangsregierung erhöhung von 1,5 % , allerdings stagnierte zwischen den verantwortungszuweisung . 
+
+ SENTENCE 19 Csrc:however {} CR:
+ SENTENCE 19 Csrc:however {11} CC:aber
+SENTENCE 19: Csrc = however (howeverCONCESSION)	Cref = allerdings	Ccand = aber	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+
+SOURCE 19: moreover , the families of obese children do not practise sports . however , this concerns a majority of families of current schoolchildren - only 15 % of the children said their parents find time for sports activities at least once a week .
+REFERENCE 19: in familien mit dickerchen zählt auch sport nicht gerade zu den lieblingsbeschäftigungen , was allerdings auch die mehrheit der heutigen schülern betrifft - nur 15 prozent antwortete , dass sich ihre eltern wenigsten einmal in der woche zeit für aktive bewegung finden .
+CANDIDATE 19: außerdem , die familien der übergewichtigen kinder nicht erwachsenenmannschaft , aber das sich um eine mehrheit der familien der aktuellen schüler - nur 15 % der kinder , sagte , ihre eltern die zeit finden für die sportlichen aktivitäten mindestens einmal eine woche . 
+
+ SENTENCE 20 Csrc:however {7 8} CR:nicht und
+ SENTENCE 20 Csrc:however {1} CC:aber
+SENTENCE 20: Csrc = however	Cref = 0	Ccand = aber	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+
+SOURCE 20: however , children showed very little interest in legumes , fish , and vegetable lunches .
+REFERENCE 20: hülsenfrüchte mochten die kinder fast gar nicht und auch die beliebtheit von fisch und gemüsegerichten als mittagessen war sehr gering .
+CANDIDATE 20: aber , kinder , zeigte wenig interesse in körnerleguminosen , fisch , pflanzlichen und verpflegung . 
+
+****************************** 
+****************************** 
+*** 
+****************************** 
+Number of different sentences: 20 
+Number of discourse connectives: 21 
+*************Statistical informations about the correspondence between alignment information and detected connectors ***************** 
+The reference connector is equal to the alignment information (Cref Eq CR): 7 
+The reference connector is not equal to the alignment information (Cref Not Eq CR): 11 
+The candidate connector is equal to the alignment information (Ccand Eq CC): 15 
+The candidate connector is not equal to the alignment information (Ccand Not Eq CC): 5 
+****************************** 
+*** 
+case 1: 8 
+case 2: 7 
+case 3: 2 
+case 4: 1 
+case 5: 3 
+case 6: 0 
+*** 
+ACTa:   0.714 
+ACTa5+6:   0.833 
+ACTm:   0.714 
+*** 
+****************************** 
+
+ Done in  3 seconds
+****************************** 

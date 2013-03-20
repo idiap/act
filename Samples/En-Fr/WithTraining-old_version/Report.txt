@@ -1,0 +1,23 @@
+SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 2: Csrc = although	Cref = 0	Ccand = bienque	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 3: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 4: Csrc = although	Cref=Ccand = bienque	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 5: Csrc = eventhough	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 6: Csrc = eventhough	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 7: Csrc = eventhough (eventhoughCONCESSION)	Cref = bienque	Ccand = mêmesi	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 8: Csrc = meanwhile	Cref=Ccand = entre-temps	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = entre-temps	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = parceque	Ccand = étantdonnéque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 11: Csrc = since (sinceCAUSAL)	Cref = puisque	Ccand = étantdonnéque	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 12: Csrc = since	Cref = comme	Ccand = depuis	==> case 3: Incompatible connectives 
+SENTENCE 13: Csrc = though	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 14: Csrc = though	Cref=Ccand = mêmesi	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 15: Csrc = while	Cref=Ccand = tandisque	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 16: Csrc = while	Cref=Ccand = touten	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 17: Csrc = while	Cref = 0	Ccand = touten	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 18: Csrc = yet	Cref = mais	Ccand = pourtant	==> case 3: Incompatible connectives 
+SENTENCE 19: Csrc = yet (yetADVERB)	Cref = pasencore	Ccand = encore	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 20: Csrc = yet	Cref = toutefois	Ccand = pourtant	==> case 3: Incompatible connectives 
+****************************** 
+
+ Done in  0 seconds

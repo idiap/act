@@ -1,0 +1,11 @@
+*******************************************Case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human *******************************
+***SENTENCE 6: Csrc = however	Cref = 0	Ccand = tuttavia***
+SOURCE 6: this change should not , however , prevent those ncbs that have data for years before 1995 from reporting them on a voluntary basis .
+REFERENCE 6: caso a quelle bcn che hanno a disposizione dati relativi ad anni precedenti al 1995 , di segnalarli su base volontaria .
+CANDIDATE 6: questo cambiamento , tuttavia , non dovrebbe impedire quelle bcn che abbiamo dati per anni prima 1995 da riferire loro su base volontaria . 
+
+***SENTENCE 17: Csrc = however	Cref = 0	Ccand = tuttavia***
+SOURCE 17: however , the experience with the retail service providers in the uk demonstrates that off-exchange execution can deliver price improvements for retail investors in 7 out of 10 trades .
+REFERENCE 17: l' esperienza dei retail service providers di il regno unito dimostra che in 7 casi su 10 l' esecuzione fuori borsa può consentire agli investitori al dettaglio di ottenere prezzi più vantaggiosi .
+CANDIDATE 17: tuttavia , l' esperienza con la retail di servizi nel regno unito dimostra che off-exchange esecuzione possono conseguire miglioramenti dei prezzi per gli investitori al dettaglio in 7 dei 10 . 
+

@@ -1,0 +1,16 @@
+*******************************************Case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human *******************************
+***SENTENCE 2: Csrc = although	Cref = 0	Ccand = bienque***
+SOURCE 2: in most free trade agreements , the data exclusivity approach prevails , although some recent ones contain the possibility of some cost sharing .
+REFERENCE 2: pour les pays en développement , il importe de noter que l' exclusivité des données est une méthode qui peut retarder de plusieurs années la commercialisation de médicaments nouveaux .
+CANDIDATE 2: dans la plupart des accords de libre-échange , l' exclusivité des données approche l ' emporte , bienque  quelques derniers contiennent de la possibilité de certains coûts partage . 
+
+***SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = entre-temps***
+SOURCE 9: meanwhile , the united states congress reopened consideration of puerto rico 's political status in early 2007 , as two pieces of draft legislation aimed at resolving the status issue were debated in the subcommittee on insular affairs of the committee on natural resources .
+REFERENCE 9: de son côté , le congrès a repris l' examen du statut politique de porto rico début 2007 , deux propositions de loi visant à régler la question du statut étant alors examinées par le sous-comité chargé des affaires insulaires au sein du comité des ressources naturelles .
+CANDIDATE 9: entre-temps , le congrès américain a réouvert considération de puerto rico le statut politique au début de 2007 , comme deux éléments de la proposition de législation visant à résoudre la question du statut a été débattu au sein de la sous-commission des affaires coupée de la commission sur les ressources naturelles . 
+
+***SENTENCE 17: Csrc = while	Cref = 0	Ccand = touten***
+SOURCE 17: while considering the above arguments , one should not lose sight of competition authorities ' capture by the private sector .
+REFERENCE 17: il convient de ne pas perdre de vue , dans le raisonnement qui précède , le problème de l' emprise du secteur privé sur les autorités de concurrence .
+CANDIDATE 17: touten  étant donné les arguments ci-dessus , il convient de ne pas perdre de vue les autorités chargées de la concurrence " capturer par le secteur privé . 
+

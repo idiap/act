@@ -1,0 +1,31 @@
+*******************************************Case 2: Synonym connectives in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 1: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque***
+SOURCE 1: actions to prevent restrictive licensing arrangements from adversely affecting competition in a domestic market are a matter left to individual member countries , although consultation and cooperation between members is encouraged .
+REFERENCE 1: es mesures visant à empêcher que des arrangements restrictifs en matière de licence n' entravent la concurrence sur un marché intérieur sont laissées au choix de chacun des pays membres , mêmesi  la consultation et la coopération entre les membres sont encouragées .
+CANDIDATE 1: les actions visant à empêcher des accords de licence restrictives affectant négativement la concurrence dans un marché national sont une question laissée à chacun des pays membres , bienque  la consultation et la coopération entre les états membres est encouragé . 
+
+***SENTENCE 3: Csrc = although (althoughCONCESSION)	Cref = mêmesi	Ccand = bienque***
+SOURCE 3: although the cca is not involved as a beneficiary in the “ bizimpact ” project aimed at the sme sector in croatia , it is actively cooperating in its various components .
+REFERENCE 3: mêmesi  elle ne participe pas en tantque  bénéficiaire au projet « bizimpact » destiné au secteur des pme en croatie , elle coopère activement avec les diverses composantes de ce projet .
+CANDIDATE 3: bienque  le cca n' est pas impliqué en tantque  bénéficiaire de la « bizimpact " projet visant à le secteur des pme en croatie , il s' agit de coopérer activement dans ses différentes composantes . 
+
+***SENTENCE 7: Csrc = eventhough (eventhoughCONCESSION)	Cref = bienque	Ccand = mêmesi***
+SOURCE 7: eventhough this risk estimation is very conservative due to the basic maximum detected levels it can be concluded that the dietary risks are of concern .
+REFERENCE 7: bienque  il s' agisse d' une estimation très prudente en raison des niveaux maximums de référence détectés , on peut conclure que les risques liés à l' ingestion via la nourriture sont préoccupants .
+CANDIDATE 7: mêmesi  ce risque estimation est très conservatrice en raison de la base des niveaux maximum détecté il peut être conclu que les risques alimentaires sont une source de préoccupation . 
+
+***SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = parceque	Ccand = étantdonnéque***
+SOURCE 10: the indonesian submission to the eighth session intergovernmental group of experts on competition law and policy meeting describes the popular view in that country : ( a ) ip rights are the rights of advanced countries ; ( b ) competition law also belongs only to developed countries ; and ( c ) people buy pirated products since they are much cheaper than licensed products .
+REFERENCE 10: la communication de l' indonésie à la huitième session du groupe intergouvernemental d' experts du droit et de la politique de la concurrence montre bien l' opinion populaire en cours dans ce pays : a ) les droits de propriété intellectuelle sont ceux des pays avancés ; b ) le droit de la concurrence appartient aussi aux seuls pays développés ; et c ) les gens achètent des produits piratés parceque  ils coûtent beaucoup moins cher que les produits fabriqués sous licence .
+CANDIDATE 10: la soumission indonésien à la huitième session groupe intergouvernemental d ’ experts sur le droit de la concurrence et de réunion politique décrit l' opinion populaire dans ce pays : ( a ) des droits de propriété intellectuelle sont les droits de pays avancé ; ( b ) le droit de la concurrence , également appartient-il uniquement aux pays développés ; et ( c ) les gens achètent des produits piratés , étantdonnéque  ils sont beaucoup moins chers que les produits sous licence . 
+
+***SENTENCE 11: Csrc = since (sinceCAUSAL)	Cref = puisque	Ccand = étantdonnéque***
+SOURCE 11: but they could help ( anticompetitive ) price coordination and could raise barriers to market access of other competitors , since they could be forced to negotiate with all firms involved or impose terms that are abusive to non-members .
+REFERENCE 11: mais ces licences croisées peuvent aussi favoriser une entente sur les prix ( anticoncurrentiel ) et dresser des obstacles à l' accès au marché d' autres concurrents , puisque ces derniers pourraient être contraints de négocier avec toutes les entreprises concernées , ou imposer des conditions excessives aux non-membres .
+CANDIDATE 11: mais ils pourraient aider ( anticompetitive ) et la coordination des prix pourrait soulever des barrières à l' accès au marché des autres concurrents , étantdonnéque  ils pourraient être contraints de négocier avec toutes les sociétés impliquées ou imposer des termes que sont injurieux aux états . 
+
+***SENTENCE 19: Csrc = yet (yetADVERB)	Cref = pasencore	Ccand = encore***
+SOURCE 19: square brackets indicate alternative wording or text on which there is as yet no agreement ; all paragraphs that contain no brackets are ad referendum .
+REFERENCE 19: les crochets indiquent un texte qui n' a pasencore  fait l' objet d' un accord ; tous les paragraphes qui ne sont pas entre crochets sont ad referendum .
+CANDIDATE 19: points indiquent formulation alternative ou texte sur lequel il n' existe encore aucun accord ; tous les paragraphes qui contiennent pas de points sont ad referendum . 
+

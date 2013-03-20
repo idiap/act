@@ -1,0 +1,16 @@
+*******************************************Case 3: Incompatible connectives *******************************
+***SENTENCE 12: Csrc = since	Cref = comme	Ccand = depuis***
+SOURCE 12: since the process of patent granting is usually left for ipr authorities alone , one might wish to deliberate on how possible anticompetitive effects from poor quality patents could be anticipated and possibly avoided .
+REFERENCE 12: comme la procédure de délivrance des brevets relève généralement des seules autorités chargées des droits de propriété intellectuelle , il serait peut-être souhaitable d' avoir un débat sur la manière d' anticiper et d' éviter si possible les effets anticoncurrentiels des brevets de qualité médiocre .
+CANDIDATE 12: depuis le processus d' octroi des brevets est généralement laissée pour les dpi autorités uniquement , on pourrait souhaiter à délibérée anticompetitive possible sur la manière dont les effets de mauvaise qualité des brevets pourrait être anticipé et peut-être évité . 
+
+***SENTENCE 18: Csrc = yet	Cref = mais	Ccand = pourtant***
+SOURCE 18: yet the design of ipr policy in developing countries is a cross-cutting issue and must balance the needs to protect iprs , to promote technological diffusion and to develop the domestic industry and innovation capacity , taking into account the flexibilities granted by trips .
+REFERENCE 18: mais l' élaboration de la politique en matière de droits de propriété intellectuelle dans les pays en développement est une question intersectorielle , car il faut trouver un équilibre entre la nécessité de protéger les droits de propriété intellectuelle , la nécessité de promouvoir la diffusion des technologies et celle de développer l' industrie nationale et la capacité d' innovation , en tenant compte des flexibilités autorisées par l' accord sur les adpic .
+CANDIDATE 18: pourtant , la conception des dpi politique dans les pays en développement est une question transversale et doivent trouver le juste équilibre entre les besoins de protéger les droits de propriété intellectuelle , à promouvoir la diffusion technologique et à développer l' industrie nationale et la capacité d ' innovation , en prenant en considération la souplesse octroyée par l' accord adpic . 
+
+***SENTENCE 20: Csrc = yet	Cref = toutefois	Ccand = pourtant***
+SOURCE 20: yet national vision and ownership of the growth process were seen as vital .
+REFERENCE 20: l' appropriation du processus de croissance par les pays et l' adoption d' une approche nationale ont toutefois été considérées comme vitales .
+CANDIDATE 20: pourtant , vision nationale et l' appropriation des processus de croissance ont été considéré comme essentiel . 
+

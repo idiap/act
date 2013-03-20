@@ -1,0 +1,26 @@
+*******************************************Case 2: Synonym connectives in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 2: Csrc = although (althoughCONCESSION)	Cref = Ely__Alrgm	Ccand = rgm***
+SOURCE 2: although commonly seen as an issue of economic and social rights , the experience of the poor is as likely to be marked by repression as by economic deprivation and indeed the two are interlinked .
+REFERENCE 2: w--Ely__Alrgm  mn An h§h AlmsAlp tEtbr EmwmA msAlp Hqwq AqtSAdyp w--AjtmAEyp , f--An HyAp Alfqyr ttsm b--AlqmE k--mA ttsm b--AlHrmAn AlAqtSAdy AlmtrAbTyn HqA .
+CANDIDATE 2: w--rgm An mn Al$A}E AEtbAr msAlp AlHqwq AlAqtSAdyp w--AlAjtmAEyp , w--tjrbp AlfqrA' yHtml An tkwn mn AlqmE w--AlHrmAn AlAqtSAdy , w--fy AlwAqE w--mtrAbTp . 
+
+***SENTENCE 6: Csrc = eventhough (eventhoughCONCESSION)	Cref = rgm	Ccand = Ely__Alrgm***
+SOURCE 6: concerning the military component , the advisory committee was informed that eventhough a recurrence of fighting on the island is extremely unlikely , the potential for minor , local violence and challenges to the ceasefire regime still exist .
+REFERENCE 6: 13 - w--fymA ytElq b--AlEnSr AlEskry , AHyTt Alljnp AlAst$Aryp ElmA b--An--h rgm $dp DAlp AHtmAl tjdd AlqtAl fy Aljzyrp , lA__yzAl  mn AlmHtml Hdwv AEmAl Enf Tfyfp w--mHlyp w--tHdyAt l--nZAm wqf ATlAq AlnAr .
+CANDIDATE 6: w--fymA ytElq b--AlEnSr AlEskry , Ablgt Alljnp AlAst$Aryp An--h Ely__Alrgm  mn An tjdd AlqtAl fy Aljzyrp mn AlmstbEd AmkAnyp bsyTp , w--AlEnf AlmHly w--tHdyAt l--nZAm wqf ATlAq AlnAr , mA zAlt qA}mp . 
+
+***SENTENCE 8: Csrc = meanwhile (meanwhileTEMPORAL)	Cref = fy__Alwqt__AlHADr	Ccand = fy__Alwqt__nfs--h***
+SOURCE 8: meanwhile , there are more immediate actions that we can and should take now .
+REFERENCE 8: 198 - w--fy__Alwqt__AlHADr  , hnAk AjrA'At Akvr AlHAHA ymkn bl ynbgy An ntx§--hA HAlyA .
+CANDIDATE 8: w--fy__Alwqt__nfs--h  , hnAk Almzyd mn AlAjrA'At Alfwryp Alty ymkn--nA w--ynbgy An ttx§--hA AlAn . 
+
+***SENTENCE 10: Csrc = since (sinceCAUSAL)	Cref = nZrA	Ccand = b--mA__An***
+SOURCE 10: such a structure would offer architectural and conceptual clarity , since the united nations already has councils that deal with two other main purposes — security and development .
+REFERENCE 10: w--mn $An hykl mn h§A Alqbyl An ytyH wDwHA bnywyA @@wmfAhymyA@@ , nZrA l--An AlAmm AlmtHdp ldy--hA fElA mjlsAn ysthdfAn grDyn r}ysyn Axryn hmA : AlAmn w--Altnmyp .
+CANDIDATE 10: w--s--ywfr h§A Alhykl AlmEmAry w--AlwDwH @@AlmfAhymy@@ , b--mA__An  AlAmm AlmtHdp b--AlfEl Ely AlmjAls Alty ttEAml mE Avnyn mn AlAhdAf Alr}ysyp AlAxry - AlAmn w--Altnmyp . 
+
+***SENTENCE 12: Csrc = since (sinceCAUSAL)	Cref = Hyv	Ccand = b--mA__An***
+SOURCE 12: it is difficult for ohchr to speculate in detail how the creation of a human rights council would impact on our work since so many of the details concerning the scope , power and composition of the body are still under discussion .
+REFERENCE 12: 93 - w--mn AlSEb b--Alnsbp l--AlmfwDyp Altkhn b--tfASyl Alkyfyp Alty s--y&vr b--hA An$A' mjls jdyd l--Hqwq AlAnsAn fy Eml--nA , Hyv An Alkvyr jdA mn AltfASyl AlmtElqp b--nTAq h§h Alhy}p w--slTp--hA w--tkwyn--hA mA__zAl  qyd AlmnAq$p .
+CANDIDATE 12: w--mn AlSEb b--Alnsbp l--AlmfwDyp AlsAmyp l--Hqwq AlAnsAn l--Altkhn b--AltfSyl kyfyp An$A' mjls Hqwq AlAnsAn s--t&vr Ely Eml--nA b--mA__An  Alkvyr mn AltfASyl AlmtElqp b--nTAq w--AlslTp w--t$kyl Alhy}p lA tzAl qyd AlmnAq$p . 
+

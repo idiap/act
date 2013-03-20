@@ -1,0 +1,23 @@
+SENTENCE 1: Csrc = although	Cref=Ccand = sebbene	PositionCref=36	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 2: Csrc = although	Cref = tuttavia	Ccand = sebbene	PositionCref=43	==> case 3: Incompatible connectives 
+SENTENCE 3: Csrc = although	Cref = ma	Ccand = sebbene	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 4: Csrc = although (althoughCONCESSION)	Cref = sebbene	Ccand = anchese	PositionCref=1	==> case 2: Synonym connectives in Ref and Cand ==>likely ok !  
+SENTENCE 5: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 6: Csrc = however	Cref = 0	Ccand = tuttavia	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 7: Csrc = however	Cref = tuttavia	Ccand = ora	PositionCref=11	==> case 3: Incompatible connectives 
+SENTENCE 8: Csrc = however	Cref=Ccand = tuttavia	PositionCref=5	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 9: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 10: Csrc = however	Cref = nondimeno	Ccand = tuttavia	PositionCref=1	==> case 3: Incompatible connectives 
+SENTENCE 11: Csrc = however	Cref=Ccand = tuttavia	PositionCref=5	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 12: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 13: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 14: Csrc = however	Cref=Ccand = però	PositionCref=25	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 15: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 16: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 17: Csrc = however	Cref = 0	Ccand = tuttavia	PositionCref=0	==> case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human 
+SENTENCE 18: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 19: Csrc = however	Cref=Ccand = tuttavia	PositionCref=6	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+SENTENCE 20: Csrc = however	Cref=Ccand = tuttavia	PositionCref=1	==> case 1: Same connective in Ref and Cand ==>likely ok ! 
+****************************** 
+
+ Done in  0 seconds

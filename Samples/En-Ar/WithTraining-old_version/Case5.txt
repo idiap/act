@@ -1,0 +1,11 @@
+*******************************************Case 5: Not translated in Ref but translated in Cand==> indecide, to check by Human *******************************
+***SENTENCE 9: Csrc = meanwhile	Cref = 0	Ccand = fy Alwqt nfs***
+SOURCE 9: meanwhile , the mission has ordered additional items to enhance the security of the addis ababa headquarters ” .
+REFERENCE 9: -LRB- d -RRB- sAhm Alhjwm Al*y tErD l +h mbny AlAmm AlmtHdp fy bgdAd fy frD HZr EAm Ely Al$HnAt Almtjhp Aly AlbEvAt AlAxry .
+CANDIDATE 9: w+ fy Alwqt nfs +h , f+ An AlbEvp qd Amrt b+ bnwd ADAfyp l+ tEzyz Amn mqr Adys AbAbA " . 
+
+***SENTENCE 15: Csrc = though	Cref = 0	Ccand =  mE***
+SOURCE 15: often , though , it is the demands and requirements of the contingent commanders that have the greatest impact on the conduct of the contingent troops .
+REFERENCE 15: Ely An AlmqtDyAt w+ Al$rwT Alty ymly +hA qAdp AlwHdAt hy Alty tHdv Akbr AlAvr fy tSrf AfrAd AlwHdAt fy gAlb AlAHyAn .
+CANDIDATE 15: w+ mE *lk , f+ hw mTAlb w+ AHtyAjAt qAdp AlwHdAt Alty l +hA Akbr AlAvr Ely slwk AfrAd AlwHdAt . 
+

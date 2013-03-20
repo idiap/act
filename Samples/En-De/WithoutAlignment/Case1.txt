@@ -1,0 +1,51 @@
+*******************************************Case 1: Same connective in Ref and Cand ==>likely ok ! *******************************
+***SENTENCE 3: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 3: panetta has been increasingly outspoken about the possible cuts , although he came to the top pentagon job with years of budget expertise himself in congress and the white house and knowing that he was facing tough choices .
+REFERENCE 3: panetta hat zunehmend unverblümt die möglichen kürzungen ausgesprochen , obwohl er viele jahre erfahrungen mit dem budget im kongress und im weißen haus sammeln konnte , bevor er an die spitze des pentagons kam , und weiß , dass er schweren entscheidungen gegenüber steht .
+CANDIDATE 3: panetta hat zunehmend offenen über die möglichen kürzungen , obwohl er kam zu dem obersten pentagon arbeit mit jahre haushalt sachkenntnissen selbst im kongress und im weißen haus , und wir wissen , dass er war vor schweren entscheidungen . 
+
+***SENTENCE 4: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 4: the director of municipal social development indicated that although so far the work programs have advanced they are at risk because the state government failed to make the contributions that correspond , which represent a resource superior to 11 million pesos in all three programs .
+REFERENCE 4: der leiter der städtischen behörde für soziale entwicklung erklärte , dass , obwohl die bauprogramme schon fortgeschritten sind , sie jetzt in gefahr schweben , da die staatsregierung die ihr zustehenden mittel , die für die drei programme 11 millionen peso überschreiten , nicht gezahlt hat .
+CANDIDATE 4: der direktor der städtischen soziale entwicklung sagte , dass , obwohl bisher die arbeit , die programme haben sie sind gefährdet , weil die regierung nicht die beiträge , entsprechen , die eine ressource seien 11 millionen pesos in allen drei computerprogramme . 
+
+***SENTENCE 6: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 6: he is expected to present a cabinet composed largely of technocrats , although it is unclear when the new executive will undertake the position .
+REFERENCE 6: es wird davon ausgegangen , dass er ein mehrheitlich aus technokraten zusammengesetztes kabinett vorstellen wird , obwohl noch nicht klar ist , wann der neue ministerpräsident sein amt antreten wird .
+CANDIDATE 6: er ist auf ein kabinett aus weitgehend technokratenmeinung , obwohl er ist unklar , wann die neue die position . 
+
+***SENTENCE 7: Csrc = although	Cref=Ccand = aber***
+SOURCE 7: it &apos;s interesting because i think there are a couple of songs on the album that may appear lighter , but there are songs like the end or just breathe that are qualified as very dark although they can sound a little positive .
+REFERENCE 7: das ist interessant , denn ich glaube , es gibt ein paar songs auf dem neuen album , die etwas leichtfertig wirken könnten . aber es gibt auch andere lieder wie the end oder just breathe , die als sehr dunkle songs eingestuft werden , obwohl sie auch etwas positives an sich haben .
+CANDIDATE 7: das interessante , weil ich glaube , ein paar lieder auf dem album , die vielleicht leichteren , aber es gibt lieder wie der end oder nur parlamentsluft , die qualifiziert sind , wie sehr dunklen , obwohl sie kann eine gute ein wenig positiv . 
+
+***SENTENCE 9: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 9: modolo remembers that there is already a work done by the board of collserola that &quot; should not fall on deaf ears , &quot; although he is grateful for the opportunity that the city hall offers to his profession to intervene in this project &quot; from the very beginning . &quot;
+REFERENCE 9: modol erinnert daran , dass es bereits eine studie vom patronat de collserola gibt , die nicht &quot; auf taube ohren stoßen sollte &quot; , obwohl er der stadtverwaltung dankbar sei , dass sie seinem gremium die möglichkeit gegeben hat , an diesem projekt &quot; vom ersten augenblick an &quot; mitzuwirken .
+CANDIDATE 9: modolo sich daran erinnert , dass bereits eine arbeit der verwaltungsrat collserola , dass &quot; nicht auf taube ohren &quot; , obwohl er ist dankbar für die gelegenheit , dass die stadt halle bietet seinen beruf zu intervenieren , bei diesem projekt &quot; von anfang an . &quot; 
+
+***SENTENCE 10: Csrc = although	Cref=Ccand = während***
+SOURCE 10: during the legal diligence , the public prosecutor attached to the court , ramiro arias , questioned garcia gomez whether he had repaired the damage and which of the partners of the betting house granted pardon , although the lawyer tried to reserve the name .
+REFERENCE 10: während der gerichtlichen anhörung fragte ramiro arias , der beamte des dem gericht zugeordneten ministerio público , garcía gómez , ob dieser den schaden behoben habe und welcher der besitzer des wetthauses seine vergebung ausgesprochen habe . der anwalt hielt den namen jedoch zurück .
+CANDIDATE 10: während die sorgfalt , die staatsanwaltschaft an der europäische gerichtshof , ramiro arias , infrage gestellt garcia gomez , ob er repariert die schäden und die die partner der sportwetten haus bse-freiheitsstatus begnadigung , obwohl der anwalt versucht , die reserve der name . 
+
+***SENTENCE 11: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 11: although in both she looked confident , it was noted that she lacked the strength and energy that magdalena and atlántico representatives did show .
+REFERENCE 11: obwohl sie bei beiden sicher auftrat , fehlte ihr doch die kraft und der schwung , den die vertreterinnen von magdalena und atlántico zur schau stellten .
+CANDIDATE 11: obwohl sowohl in sie sich zuversichtlich , wurde festgestellt , dass sie nicht die stärke und energie , magdalena und atlántico vertreter hat zeigen . 
+
+***SENTENCE 13: Csrc = although	Cref=Ccand = aber***
+SOURCE 13: at least for one hour they were able to occupy the place , but then the police came and proceeded to arrest some of the protesters , although bray could not confirm the precise number , while telling efe that he saw several journalists who were also handcuffed .
+REFERENCE 13: sie konnten den ort mindestens eine stunde lang besetzen . aber danach traf die polizei ein und verhaftete einige der demonstranten , obwohl bray keine genauen zahlen geben kann . er versicherte der nachrichtenagentur efe , dass er darunter auch mehrere journalisten mit handschellen gesehen habe .
+CANDIDATE 13: zumindest für eine stunde sie konnten den platz einnimmt , aber dann die polizei kam und unternahm zu verhaften , einige der protestler , obwohl bray nicht bestätigen könnten die genaue zahl , während sagen efe , dass er sah , mehrere journalisten , die auch in handschellen . 
+
+***SENTENCE 13: Csrc = while	Cref=Ccand = aber***
+SOURCE 13: at least for one hour they were able to occupy the place , but then the police came and proceeded to arrest some of the protesters , although bray could not confirm the precise number , while telling efe that he saw several journalists who were also handcuffed .
+REFERENCE 13: sie konnten den ort mindestens eine stunde lang besetzen . aber danach traf die polizei ein und verhaftete einige der demonstranten , obwohl bray keine genauen zahlen geben kann . er versicherte der nachrichtenagentur efe , dass er darunter auch mehrere journalisten mit handschellen gesehen habe .
+CANDIDATE 13: zumindest für eine stunde sie konnten den platz einnimmt , aber dann die polizei kam und unternahm zu verhaften , einige der protestler , obwohl bray nicht bestätigen könnten die genaue zahl , während sagen efe , dass er sah , mehrere journalisten , die auch in handschellen . 
+
+***SENTENCE 14: Csrc = although	Cref=Ccand = obwohl***
+SOURCE 14: the economic affairs spokesman , amadeu altafaj , said the troika inspectors would return &quot; very soon &quot; to athens to discuss with the new government &quot; what has to be done to pay the sixth tranche &quot; of 8,000 million , although there is no definite date .
+REFERENCE 14: der sprecher des wirtschaftsministeriums , amadeu altafaj , erklärte , dass die inspektoren der troika &quot; sehr bald &quot; nach athen zurückkämen , um mit der neuen regierung zu besprechen , &quot; was für die zahlung des sechsten abschnitts &quot; in höhe von 8000 millionen euro &quot; vonnöten sei &quot; , obwohl es noch kein endgültiges datum gibt .
+CANDIDATE 14: die wirtschaft sprecher , der sprecher der kommission , sagte der troika kontrolleuren rückkehr &quot; , sehr bald &quot; in athen zu diskutieren , mit der neuen regierung &quot; , was zu tun ist , die sechste tranche &quot; 8.000 millionen wird , obwohl kein konkreten abschlußdatums . 
+

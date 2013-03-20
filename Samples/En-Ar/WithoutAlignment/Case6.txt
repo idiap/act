@@ -1,0 +1,16 @@
+*******************************************Case 6: Not translated in Ref nor in Cand ==> indecide *******************************
+***SENTENCE 15: Csrc = though	Cref = 0	Ccand = 0***
+SOURCE 15: often , though , it is the demands and requirements of the contingent commanders that have the greatest impact on the conduct of the contingent troops .
+REFERENCE 15: Ely__An  AlmqtDyAt w--Al$rwT Alty ymly--hA qAdp AlwHdAt hy Alty tHdv Akbr AlAvr fy tSrf AfrAd AlwHdAt fy gAlb AlAHyAn .
+CANDIDATE 15: w--mE__§lk  , f--hw mTAlb w--AHtyAjAt qAdp AlwHdAt Alty l--hA Akbr AlAvr Ely slwk AfrAd AlwHdAt . 
+
+***SENTENCE 16: Csrc = while	Cref = 0	Ccand = 0***
+SOURCE 16: while this capacity has attained an unhealthy degree of politicization — which the proposed peer review function of the human rights council should address — the ability to address serious situations must be retained and revived .
+REFERENCE 16: w--mE__An  h§h AlSlAHyp qd wSlt drjp gyr SHyp mn @@Altsyys@@ - w--hw mA ylzm An tEAlj--hA mhmp AstErAD AlAqrAn AlmqtrHp l--mjls Hqwq AlAnsAn - AlA__An --h ynbgy AlAbqA' Ely AmkAnyp AltSdy l--AlHAlAt AlxTyrp bl w--tjdyd h§h AlAmkAnyp .
+CANDIDATE 16: w--qd Hqqt h§h Alqdrp gyr AlSHyp drjp @@Altsyys@@ - AstErAD AlAqrAn AlmqtrHp wZyfp mjls Hqwq AlAnsAn ynbgy An yEAlj - Alqdrp Ely mEAljp HAlAt xTyrp yjb AlAbqA' Ely--hA w--AHyA' . 
+
+***SENTENCE 17: Csrc = while	Cref = 0	Ccand = 0***
+SOURCE 17: while a given country is on the agenda of the security council , the work of the peacebuilding commission would have to remain within the purview of that body .
+REFERENCE 17: f--A§A__kAn  bld mA mdrjA fy jdwl AEmAl mjls AlAmn , f--An Eml ljnp bnA' AlslAm ynbgy An yZl fy nTAq slTp mjls AlAmn .
+CANDIDATE 17: w--fy bld mA Ely jdwl AEmAl mjls AlAmn , f--An Eml ljnp bnA' AlslAm s--yZl fy nTAq AxtSAS §lk AljhAz . 
+

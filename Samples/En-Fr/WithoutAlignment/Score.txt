@@ -1,0 +1,34 @@
+$SourceFile=20undoc.2000.en-fr.tok.lc.src 
+$ReferenceFile=20undoc.2000.en-fr.tok.lc.ref 
+$CandidateFile=20undoc.2000.en-fr.tok.lc.cand 
+$ACTHOME=/Users/Hajlaoui/tools/ACT/ACT-V1.7 
+$WorkingDir=/Users/Hajlaoui/tools/ACT/ACT-V1.7/Samples/En-Fr/WithoutAlignment 
+$SourceLanguage=en 
+$TargetLanguage=fr 
+$case5manual=0 
+$case6manual=0 
+$PrintReport=1 
+$PrintCase5=0 
+$Preprocessing=1 
+$UsingAlignment=0 
+$PrintAligInfos=1 
+$GizaModel=0 
+$RunGiza=0 
+$PathToGIZA=/Users/Hajlaoui/tools/giza-pp-v1.0.7/giza-pp/GIZA++-v2 
+$SavingModel=0 
+$SavingModel_Src_Ref=2100-ar-en-zh.SMTB2.Src-Ref.toact.V1.4.en-ar.grow-diag-final-and.giza 
+$SavingModel_Src_Cand=2100-ar-en-zh.SMTB2.Src-Cand.toact.V1.4.en-ar.grow-diag-final-and.giza 
+****************************** 
+
+Number of different sentences: 20 
+Number of discourse connectives: 20 
+*** 
+case 1: 7 
+case 2: 7 
+case 3: 3 
+case 4: 0 
+case 5: 3 
+case 6: 0 
+ACTa:   0.700 
+ACTa5+6:   0.824 
+ACTm:   0.700 
