@@ -402,6 +402,14 @@ while (($Ligne1=<SCR2>) and ($Ligne2=<REF2>) and ($Ligne3=<CAND2>) )
 		{
             
 			#print "REFERENCE: $Ligne2" if ($ModeTest);
+            #adding position
+            my @WordsBeforeRefConnect=();
+            @WordsBeforeRefConnect=split(/ /,$1);
+            $NberWordsBeforeRefConnect=0;
+            $NberWordsBeforeRefConnect=@WordsBeforeRefConnect;
+            #End adding position
+
+            
 			$Cref=$2;
             if( $Cref=~/( )(.*)/)
             {
@@ -409,10 +417,7 @@ while (($Ligne1=<SCR2>) and ($Ligne2=<REF2>) and ($Ligne3=<CAND2>) )
             }
             
             #adding position
-            my @WordsBeforeRefConnect=();
-            @WordsBeforeRefConnect=split(/ /, $1);
-            $NberWordsBeforeRefConnect=0;
-            $NberWordsBeforeRefConnect=@WordsBeforeRefConnect;
+
             $PCref=0;
             if( $NberWordsBeforeRefConnect > 0)
             {
